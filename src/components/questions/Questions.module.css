@@ -1,0 +1,346 @@
+/* Shared question styles */
+.questionText {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--text-h);
+  margin-bottom: 20px;
+  white-space: pre-wrap;
+}
+
+.questionNumber {
+  font-size: 13px;
+  color: var(--text);
+  margin-bottom: 8px;
+}
+
+.optionList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.optionLabel {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--text-h);
+}
+
+.optionLabel:hover {
+  border-color: var(--accent-border);
+  background: var(--accent-bg);
+}
+
+.optionLabelSelected {
+  border-color: var(--accent);
+  background: var(--accent-bg);
+}
+
+.optionLabel input[type="radio"],
+.optionLabel input[type="checkbox"] {
+  margin-top: 3px;
+  flex-shrink: 0;
+  accent-color: var(--accent);
+}
+
+.requiredNote {
+  font-size: 13px;
+  color: var(--accent);
+  margin-bottom: 12px;
+}
+
+/* Dropdown question */
+.dropdownGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.dropdownSlot {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.dropdownLabel {
+  font-size: 13px;
+  color: var(--text);
+  font-weight: 500;
+}
+
+.dropdownSelect {
+  padding: 8px 12px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 15px;
+  background: var(--bg);
+  color: var(--text-h);
+  max-width: 360px;
+  cursor: pointer;
+}
+
+.dropdownSelect:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+/* Yes/No question */
+.statementTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.statementTable th {
+  text-align: center;
+  padding: 8px 16px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-h);
+  border-bottom: 2px solid var(--border);
+  background: var(--accent-bg);
+}
+
+.statementTable th:first-child {
+  text-align: left;
+}
+
+.statementTable td {
+  padding: 10px 16px;
+  border-bottom: 1px solid var(--border);
+  font-size: 15px;
+  color: var(--text-h);
+}
+
+.statementTable td:not(:first-child) {
+  text-align: center;
+}
+
+.statementTable tr:hover {
+  background: var(--accent-bg);
+}
+
+.statementTable input[type="radio"] {
+  accent-color: var(--accent);
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+}
+
+/* Ordering question */
+.orderList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.orderItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  cursor: grab;
+  user-select: none;
+  transition: box-shadow 0.15s, border-color 0.15s;
+  font-size: 15px;
+  color: var(--text-h);
+}
+
+.orderItem:hover {
+  border-color: var(--accent-border);
+}
+
+.orderItemDragging {
+  box-shadow: var(--shadow);
+  border-color: var(--accent);
+  opacity: 0.9;
+}
+
+.orderNumber {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: var(--accent-bg);
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.orderGrip {
+  color: var(--text);
+  flex-shrink: 0;
+  font-size: 16px;
+  cursor: grab;
+}
+
+.orderText {
+  flex: 1;
+}
+
+.orderButtons {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex-shrink: 0;
+}
+
+.orderBtn {
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 2px 6px;
+  font-size: 11px;
+  color: var(--text);
+  line-height: 1;
+}
+
+.orderBtn:hover {
+  background: var(--accent-bg);
+  border-color: var(--accent-border);
+}
+
+.orderBtn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.orderBtnRemove {
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 2px 6px;
+  font-size: 11px;
+  color: #e55;
+  line-height: 1;
+}
+
+.orderBtnRemove:hover {
+  background: rgba(238, 85, 85, 0.1);
+  border-color: #e55;
+}
+
+/* Ordering: selection pool */
+.orderPool {
+  margin-bottom: 16px;
+}
+
+.orderPoolLabel {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 6px;
+}
+
+.orderPoolList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.orderPoolItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px dashed var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  cursor: pointer;
+  font-size: 14px;
+  color: var(--text-h);
+  text-align: left;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.orderPoolItem:hover:not(:disabled) {
+  border-color: var(--accent-border);
+  background: var(--accent-bg);
+}
+
+.orderPoolItem:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.orderPoolId {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--code-bg);
+  color: var(--text);
+  font-size: 12px;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.orderSelectedArea {
+  margin-top: 4px;
+}
+
+.orderEmptyHint {
+  font-size: 13px;
+  color: var(--text);
+  font-style: italic;
+  padding: 12px;
+  border: 1px dashed var(--border);
+  border-radius: 6px;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .questionText {
+    font-size: 15px;
+  }
+
+  .optionLabel {
+    padding: 10px 12px;
+    font-size: 14px;
+  }
+
+  .dropdownSelect {
+    max-width: 100%;
+  }
+
+  .statementTable th {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+
+  .statementTable td {
+    padding: 8px 10px;
+    font-size: 14px;
+  }
+
+  .orderItem {
+    padding: 10px 10px;
+    font-size: 14px;
+  }
+}

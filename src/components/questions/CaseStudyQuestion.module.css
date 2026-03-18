@@ -1,0 +1,105 @@
+.layout {
+  display: flex;
+  gap: 0;
+  min-height: 400px;
+  margin: -24px;
+  margin-top: 0;
+  position: relative;
+}
+
+.panelArea {
+  flex-shrink: 0;
+  border-right: 1px solid var(--border);
+  overflow: hidden;
+}
+
+.questionArea {
+  flex: 1;
+  padding: 24px;
+  min-width: 0;
+  overflow-y: auto;
+}
+
+/* Mobile overlay toggle button */
+.overlayToggle {
+  display: none;
+}
+
+/* Overlay backdrop */
+.overlay {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .layout {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .panelArea {
+    display: none;
+    border-right: none;
+  }
+
+  .panelAreaOpen {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 85vw;
+    max-width: 400px;
+    height: 100vh;
+    z-index: 1001;
+    background: var(--bg);
+    box-shadow: var(--shadow);
+    overflow-y: auto;
+    animation: slideIn 0.2s ease-out;
+  }
+
+  .overlay {
+    display: none;
+  }
+
+  .overlayVisible {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1000;
+  }
+
+  .overlayToggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 14px;
+    margin-bottom: 12px;
+    font-size: 14px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: var(--bg);
+    color: var(--accent);
+    cursor: pointer;
+    transition: background 0.15s;
+  }
+
+  .overlayToggle:hover {
+    background: var(--accent-bg);
+  }
+
+  .questionArea {
+    padding: 16px 0 0;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}

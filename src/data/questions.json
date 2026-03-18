@@ -1,0 +1,6205 @@
+{
+  "version": "1.0",
+  "totalQuestions": 136,
+  "questions": [
+    {
+      "id": "q001",
+      "type": "multiple-choice",
+      "text": "モバイル監査チームのデータ入力要件を処理するためのソリューションを推奨する必要があります。\n目標を達成するための2つの可能な方法は何ですか?",
+      "explanation": "正解: ①, ③",
+      "options": [
+        {
+          "id": "1",
+          "text": "Power Apps Player 内のキャンバス アプリ"
+        },
+        {
+          "id": "2",
+          "text": "ブラウザー内のキャンバス アプリ"
+        },
+        {
+          "id": "3",
+          "text": "Dynamics 365 フィールド サービス"
+        },
+        {
+          "id": "4",
+          "text": "Outlook 用 Dynamics 365 アプリ"
+        }
+      ],
+      "correctAnswer": {
+        "type": "multiple",
+        "optionIds": [
+          "1",
+          "3"
+        ]
+      },
+      "requiredSelections": 2
+    },
+    {
+      "id": "q002",
+      "type": "dropdown",
+      "text": "組織の問題を解決する方法を推奨する必要があります。\n何をお勧めしますか？",
+      "explanation": "正解: ②, ③",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "2",
+          "slot2": "3"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "ユーザーが Power BI レポートを表示できない場合",
+          "options": [
+            {
+              "id": "1",
+              "text": "ユーザーを Microsoft 365 に追加する"
+            },
+            {
+              "id": "2",
+              "text": "ユーザーに Power BI ライセンスを割り当てる"
+            },
+            {
+              "id": "3",
+              "text": "オンプレミス データ ゲートウェイを構成する"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "レポートに過去のデータが表示されない場合",
+          "options": [
+            {
+              "id": "1",
+              "text": "Azure Data Lake を構成する"
+            },
+            {
+              "id": "2",
+              "text": "カスタム コネクタを構成する"
+            },
+            {
+              "id": "3",
+              "text": "オンプレミス データ ゲートウェイを構成する"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q003",
+      "type": "dropdown",
+      "text": "組織の技術的な課題に対するソリューションを推奨する必要があります。\n何をお勧めしますか？",
+      "explanation": "正解: ②, ②, ③",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "2",
+          "slot2": "2",
+          "slot3": "3"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "作業員が個人およびスキル情報を表示するためのセルフサービスオプションを提供する。",
+          "options": [
+            {
+              "id": "1",
+              "text": "Power Automate"
+            },
+            {
+              "id": "2",
+              "text": "QnA Maker"
+            },
+            {
+              "id": "3",
+              "text": "Azure Cognitive Services"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "スキル情報を更新するためのセルフサービスオプションを使用する作業者を認証する。",
+          "options": [
+            {
+              "id": "1",
+              "text": "Azure Active Directory B2B"
+            },
+            {
+              "id": "2",
+              "text": "Azure Active Directory B2C"
+            },
+            {
+              "id": "3",
+              "text": "Dynamics 365 Field Service"
+            }
+          ]
+        },
+        {
+          "id": "slot3",
+          "label": "監査チームのルートを計画する。",
+          "options": [
+            {
+              "id": "1",
+              "text": "Azure traffic routing"
+            },
+            {
+              "id": "2",
+              "text": "Address input component"
+            },
+            {
+              "id": "3",
+              "text": "Dynamics 365 Field Service"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q004",
+      "type": "dropdown",
+      "text": "組織に適したメッセージング チャネル ソリューションを推奨する必要があります。\n何をお勧めしますか？",
+      "explanation": "Omnichannel for Customer Service dashboard\n顧客対応の状況をリアルタイム／分析的に可視化する管理用ダッシュボード。\n「今、どのチャネルで、どれくらい問い合わせが来ていて、対応はうまく回っているか？」を一目で把握するためのもの。",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "3",
+          "slot2": "1"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "作業員サポート担当者",
+          "options": [
+            {
+              "id": "1",
+              "text": "Power Apps Portals"
+            },
+            {
+              "id": "2",
+              "text": "Dynamics 365 Customer Service"
+            },
+            {
+              "id": "3",
+              "text": "Omnichannel for Customer Service dashboard"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "患者",
+          "options": [
+            {
+              "id": "1",
+              "text": "Power Apps Portals"
+            },
+            {
+              "id": "2",
+              "text": "Dynamics 365 Customer Service"
+            },
+            {
+              "id": "3",
+              "text": "Omnichannel for Customer Service dashboard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q005",
+      "type": "multiple-choice",
+      "text": "組織にレポート ソリューションを推奨する必要があります。\nどの 2つのオプションをお勧めしますか?",
+      "explanation": "正解: ②, ④",
+      "options": [
+        {
+          "id": "1",
+          "text": "AI Builder"
+        },
+        {
+          "id": "2",
+          "text": "SQL Server Reporting Services (SSRS)"
+        },
+        {
+          "id": "3",
+          "text": "Dynamics 365"
+        },
+        {
+          "id": "4",
+          "text": "Power BI"
+        }
+      ],
+      "correctAnswer": {
+        "type": "multiple",
+        "optionIds": [
+          "2",
+          "4"
+        ]
+      },
+      "requiredSelections": 2
+    },
+    {
+      "id": "q006",
+      "type": "single-choice",
+      "text": "あなたは、過去の就業データにアクセスするための技術を推奨する必要があります。\nどれを推奨しますか？",
+      "explanation": "正解: ②",
+      "options": [
+        {
+          "id": "1",
+          "text": "Power Virtual Agents チャットボット"
+        },
+        {
+          "id": "2",
+          "text": "仮想テーブル"
+        },
+        {
+          "id": "3",
+          "text": "Power BI"
+        },
+        {
+          "id": "4",
+          "text": "Power Automate フロー"
+        }
+      ],
+      "correctAnswer": {
+        "type": "single",
+        "optionId": "2"
+      }
+    },
+    {
+      "id": "q007",
+      "type": "dropdown",
+      "text": "ユーザーの各グループにセキュリティを割り当てる方法を推奨する必要があります。\n何をお勧めしますか？",
+      "explanation": "正社員 → ④. Azure AD Security Group Team\n正社員は社内ユーザーであり、Azure AD に既に存在する。\nセキュリティロールを Azure AD セキュリティグループに割り当てるのが Power Platform の推奨ベストプラクティス。大人数ユーザーの管理が容易（追加・削除で自動的に Dataverse 権限も反映）。\n自動化 → ①. Dataverse Application User\n自動化（Power Automate / API / サービスアカウント）には アプリケーションユーザー を利用するのが正しい。\nApplication User はユーザーログインが不要で、アプリケーション ID（Azure AD App Registration）を使って Dataverse にアクセスするための特別なアカウント。自動化専用に最も一般的な方法。\n企業ガバナンス監査チーム → ④ / ③\n企業ガバナンス監査チームは、次のどちらかのケースが想定される：\n(1) 社内監査チーム → ④. Azure AD Security Group Team（最適解）\n社内ユーザーであれば、正社員と同じく Azure AD セキュリティグループで権限管理するのが最適。\n(2) 外部監査会社 → ③. Azure AD B2B Guest Access\n外部の監査法人・コンサルなどが一時的に監査するケースでは Guest Access が推奨される。\nただし問題文に内部か外部かの記載がないため、一般的には 社内監査 → ④ が正解。",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "4",
+          "slot2": "1",
+          "slot3": "4"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "フルタイムの従業員",
+          "options": [
+            {
+              "id": "1",
+              "text": "Dataverse アプリケーションユーザー"
+            },
+            {
+              "id": "2",
+              "text": "Power Platform Local Business Owner チーム"
+            },
+            {
+              "id": "3",
+              "text": "Azure Active Directory B2B ゲストアクセス"
+            },
+            {
+              "id": "4",
+              "text": "Azure Active Directory セキュリティグループチーム"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "自動化",
+          "options": [
+            {
+              "id": "1",
+              "text": "Dataverse アプリケーションユーザー"
+            },
+            {
+              "id": "2",
+              "text": "Power Platform Local Business Owner チーム"
+            },
+            {
+              "id": "3",
+              "text": "Azure Active Directory B2B ゲストアクセス"
+            },
+            {
+              "id": "4",
+              "text": "Azure Active Directory セキュリティグループチーム"
+            }
+          ]
+        },
+        {
+          "id": "slot3",
+          "label": "コーポーレートガバナンス監査チーム",
+          "options": [
+            {
+              "id": "1",
+              "text": "Dataverse アプリケーションユーザー"
+            },
+            {
+              "id": "2",
+              "text": "Power Platform Local Business Owner チーム"
+            },
+            {
+              "id": "3",
+              "text": "Azure Active Directory B2B ゲストアクセス"
+            },
+            {
+              "id": "4",
+              "text": "Azure Active Directory セキュリティグループチーム"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q008",
+      "type": "multiple-choice",
+      "text": "キャンバス アプリの機能の問題を調査する必要があります。\nどの 2つのツールを使用できますか?",
+      "explanation": "正解: ①, ③",
+      "options": [
+        {
+          "id": "1",
+          "text": "アプリチェッカー"
+        },
+        {
+          "id": "2",
+          "text": "エラー機能"
+        },
+        {
+          "id": "3",
+          "text": "ソリューションチェッカー"
+        },
+        {
+          "id": "4",
+          "text": "Power Platform 管理センター"
+        }
+      ],
+      "correctAnswer": {
+        "type": "multiple",
+        "optionIds": [
+          "1",
+          "3"
+        ]
+      },
+      "requiredSelections": 2
+    },
+    {
+      "id": "q009",
+      "type": "dropdown",
+      "text": "組織の通信ニーズを満たすソリューションを推奨する必要があります。\n何をお勧めしますか？",
+      "explanation": "正解: ②, ①",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "2",
+          "slot2": "1"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "First Up 社の従業員 （＝「社外ユーザー」の意味?）",
+          "options": [
+            {
+              "id": "1",
+              "text": "Microsoft Teams"
+            },
+            {
+              "id": "2",
+              "text": "Power Apps portals（Power Pages）"
+            },
+            {
+              "id": "3",
+              "text": "Microsoft 365 Business Voice"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "従業員 （＝「社内ユーザー」の意味?）",
+          "options": [
+            {
+              "id": "1",
+              "text": "Microsoft Teams"
+            },
+            {
+              "id": "2",
+              "text": "Power Apps portals（Power Pages）"
+            },
+            {
+              "id": "3",
+              "text": "Microsoft 365 Business Voice"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q010",
+      "type": "multiple-choice",
+      "text": "あなたは、大規模なMicrosoft Dataverse 操作を実行するアプリケーションを含むソリューションを実装しています。\nアプリケーションは、サービス保護APIの制限により機能の損失やパフォーマンスの損失が発生してはなりません。\nサービス保護 API 制限のメトリクスを評価する必要があります。\nどの3つの指標を評価する必要がありますか?",
+      "explanation": "正解: ②, ③, ⑤",
+      "options": [
+        {
+          "id": "1",
+          "text": "Web サーバーごとの API リクエストの数。"
+        },
+        {
+          "id": "2",
+          "text": "ユーザーアカウントごとの同時接続数。"
+        },
+        {
+          "id": "3",
+          "text": "接続ごとの API リクエストの数。"
+        },
+        {
+          "id": "4",
+          "text": "プラグイン コード内で行われた API 呼び出しの量。"
+        },
+        {
+          "id": "5",
+          "text": "各接続で使用できる実行時間。"
+        }
+      ],
+      "correctAnswer": {
+        "type": "multiple",
+        "optionIds": [
+          "2",
+          "3",
+          "5"
+        ]
+      },
+      "requiredSelections": 3
+    },
+    {
+      "id": "q011",
+      "type": "single-choice",
+      "text": "ある企業は、Microsoft Excel シートを使用して融資申請プロセスを管理しています。\n会社はプロセスを最適化したいと考えています。\nプロセスの非効率性を発見する必要があります。\n解決策:\nプロセスアドバイザー機能でローン申請プロセスを完了するために必要なアクションを記録します。\nタスクマイニングを使用して、プロセスの非効率性を発見します。\n解決策は目標を達成できますか?",
+      "explanation": "正解: ①",
+      "options": [
+        {
+          "id": "1",
+          "text": "はい"
+        },
+        {
+          "id": "2",
+          "text": "いいえ"
+        }
+      ],
+      "correctAnswer": {
+        "type": "single",
+        "optionId": "1"
+      }
+    },
+    {
+      "id": "q012",
+      "type": "dropdown",
+      "text": "ソリューションのテーブルを設計する必要があります。\n何をお勧めしますか？",
+      "explanation": "正解: ①, ③",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "1",
+          "slot2": "3"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "就業履歴",
+          "options": [
+            {
+              "id": "1",
+              "text": "カスタムテーブル"
+            },
+            {
+              "id": "2",
+              "text": "アクティブテーブル"
+            },
+            {
+              "id": "3",
+              "text": "仮想テーブル"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "セキュリティ・クリアランス記録",
+          "options": [
+            {
+              "id": "1",
+              "text": "Lookup（N:1）"
+            },
+            {
+              "id": "2",
+              "text": "Choice"
+            },
+            {
+              "id": "3",
+              "text": "Lookup（N:N）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q013",
+      "type": "dropdown",
+      "text": "ソリューションがデータセキュリティとコンプライアンスの要件を満たしていることを確認する必要があります。\n何をお勧めしますか？",
+      "explanation": "正解: ②, ③",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "2",
+          "slot2": "3"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "作業者が新しい顧客企業へ異動する。",
+          "options": [
+            {
+              "id": "1",
+              "text": "割り当て：すべてカスケード"
+            },
+            {
+              "id": "2",
+              "text": "割り当て：カスケードなし"
+            },
+            {
+              "id": "3",
+              "text": "マージ：すべてカスケード"
+            },
+            {
+              "id": "4",
+              "text": "ロールアップビュー：すべてカスケード"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "ユーザーが作業者の就職斡旋記録を削除する。",
+          "options": [
+            {
+              "id": "1",
+              "text": "削除：すべてカスケード"
+            },
+            {
+              "id": "2",
+              "text": "削除：リンクの削除"
+            },
+            {
+              "id": "3",
+              "text": "削除：制限"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q014",
+      "type": "dropdown",
+      "text": "グループごとにコラボレーション ツールを推奨する必要があります。\nどのツールを使用する必要がありますか？",
+      "explanation": "正解: ①, ③",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "1",
+          "slot2": "3"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "保守管理者",
+          "options": [
+            {
+              "id": "1",
+              "text": "Microsoft Teams"
+            },
+            {
+              "id": "2",
+              "text": "Notes"
+            },
+            {
+              "id": "3",
+              "text": "Power Apps Portal"
+            },
+            {
+              "id": "4",
+              "text": "Posts"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "航空機メンテナンスベンダー",
+          "options": [
+            {
+              "id": "1",
+              "text": "Dynamics 365 Workspace"
+            },
+            {
+              "id": "2",
+              "text": "Notes"
+            },
+            {
+              "id": "3",
+              "text": "Power Apps Portal（Power Pages）"
+            },
+            {
+              "id": "4",
+              "text": "Posts"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q015",
+      "type": "single-choice",
+      "text": "IT スペシャリストに設計図を提供する必要があります。\n何を提供する必要がありますか？",
+      "explanation": "正解: ③",
+      "options": [
+        {
+          "id": "1",
+          "text": "ビジネス プロセス モデラー (BPM)"
+        },
+        {
+          "id": "2",
+          "text": "AI Builder"
+        },
+        {
+          "id": "3",
+          "text": "エンティティ関係図 (ERD)"
+        },
+        {
+          "id": "4",
+          "text": "Dynamics 365 製品の視覚化"
+        }
+      ],
+      "correctAnswer": {
+        "type": "single",
+        "optionId": "3"
+      }
+    },
+    {
+      "id": "q016",
+      "type": "multiple-choice",
+      "text": "あなたは「Agent（エージェント）」という名称のセキュリティロールを作成する必要があります。\nどの3つのアクションを推奨すべきですか？",
+      "explanation": "正解: ⑤, ⑥, ①",
+      "options": [
+        {
+          "id": "1",
+          "text": "座席（seat）エンティティにセキュリティを追加し、ユーザーを「Agents」ロールに割り当てる。"
+        },
+        {
+          "id": "2",
+          "text": "コアレコードにセキュリティを追加し、ユーザーを「カスタマー サービス担当者（Customer Service Representative）」ロールに割り当てる。"
+        },
+        {
+          "id": "3",
+          "text": "「Microsoft Dataverse Basic User」ロールをコピーする。"
+        },
+        {
+          "id": "4",
+          "text": "「カスタマー サービス担当者」ロールの名前を「Agents」に変更する。"
+        },
+        {
+          "id": "5",
+          "text": "「カスタマー サービス担当者」ロールをコピーする。"
+        },
+        {
+          "id": "6",
+          "text": "新しいロールに「Agents」という名前を付ける。"
+        }
+      ],
+      "correctAnswer": {
+        "type": "multiple",
+        "optionIds": [
+          "5",
+          "6",
+          "1"
+        ]
+      },
+      "requiredSelections": 3
+    },
+    {
+      "id": "q017",
+      "type": "single-choice",
+      "text": "顧客と協力して予約を行う場合、エージェントにソリューションを推奨する必要があります。\n何をお勧めしますか？",
+      "explanation": "正解: ②",
+      "options": [
+        {
+          "id": "1",
+          "text": "タスク フロー"
+        },
+        {
+          "id": "2",
+          "text": "ビジネス プロセス フロー"
+        },
+        {
+          "id": "3",
+          "text": "ワークフロー"
+        },
+        {
+          "id": "4",
+          "text": "Power Automate"
+        }
+      ],
+      "correctAnswer": {
+        "type": "single",
+        "optionId": "2"
+      }
+    },
+    {
+      "id": "q018",
+      "type": "single-choice",
+      "text": "予約時に食事の選択を構成するために使用するフィールドタイプを推奨する必要があります。\nどのフィールド タイプをお勧めしますか?",
+      "explanation": "正解: ③",
+      "options": [
+        {
+          "id": "1",
+          "text": "グローバル オプション セット"
+        },
+        {
+          "id": "2",
+          "text": "ルックアップ"
+        },
+        {
+          "id": "3",
+          "text": "オプション セット"
+        },
+        {
+          "id": "4",
+          "text": "2つのオプション"
+        }
+      ],
+      "correctAnswer": {
+        "type": "single",
+        "optionId": "3"
+      }
+    },
+    {
+      "id": "q019",
+      "type": "single-choice",
+      "text": "エージェントのワークロードを消去し、報告された問題を解決する機能を推奨する必要があります。\n何をお勧めしますか？",
+      "explanation": "正解: ①",
+      "options": [
+        {
+          "id": "1",
+          "text": "Dynamics 365 Customer Service の既定の機能"
+        },
+        {
+          "id": "2",
+          "text": "Microsoft AppSource"
+        },
+        {
+          "id": "3",
+          "text": "マイクロソフト ストア"
+        }
+      ],
+      "correctAnswer": {
+        "type": "single",
+        "optionId": "1"
+      }
+    },
+    {
+      "id": "q020",
+      "type": "dropdown",
+      "text": "エージェントと管理用のツールを推奨する必要があります。どのツールをお勧めしますか?",
+      "explanation": "正解: ④, ①",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "4",
+          "slot2": "1"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "エージェント（顧客対応を行う人/現場担当者）",
+          "options": [
+            {
+              "id": "1",
+              "text": "Power BI"
+            },
+            {
+              "id": "2",
+              "text": "ダッシュボード"
+            },
+            {
+              "id": "3",
+              "text": "Power Automate"
+            },
+            {
+              "id": "4",
+              "text": "Power Apps"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "管理",
+          "options": [
+            {
+              "id": "1",
+              "text": "Power BI"
+            },
+            {
+              "id": "2",
+              "text": "Power Apps"
+            },
+            {
+              "id": "3",
+              "text": "AppSource"
+            },
+            {
+              "id": "4",
+              "text": "Power Automate"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q021",
+      "type": "dropdown",
+      "text": "荷物情報を統合するためのソリューションを推奨する必要があります。\n何をお勧めしますか？",
+      "explanation": "正解: ①, ①",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "1",
+          "slot2": "1"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "荷物",
+          "options": [
+            {
+              "id": "1",
+              "text": "カスタムテーブル"
+            },
+            {
+              "id": "2",
+              "text": "仮想テーブル"
+            },
+            {
+              "id": "3",
+              "text": "アクティビティテーブル"
+            },
+            {
+              "id": "4",
+              "text": "カスタムアクティビティテーブル"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "搭乗者",
+          "options": [
+            {
+              "id": "1",
+              "text": "カスタムテーブル"
+            },
+            {
+              "id": "2",
+              "text": "仮想テーブル"
+            },
+            {
+              "id": "3",
+              "text": "アクティビティテーブル"
+            },
+            {
+              "id": "4",
+              "text": "カスタムアクティビティテーブル"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q022",
+      "type": "single-choice",
+      "text": "IT チームとマネージャーにモバイル ソリューションを提供する必要があります。\nおすすめのアプリはいくつありますか?",
+      "explanation": "正解: ①",
+      "options": [
+        {
+          "id": "1",
+          "text": "ジョブ ロールごとに 1つのアプリ"
+        },
+        {
+          "id": "2",
+          "text": "ユーザーごとに 1つのアプリ"
+        },
+        {
+          "id": "3",
+          "text": "チームの全従業員用の 1つのアプリ"
+        },
+        {
+          "id": "4",
+          "text": "従業員のチームごとに 1つのアプリ"
+        }
+      ],
+      "correctAnswer": {
+        "type": "single",
+        "optionId": "1"
+      }
+    },
+    {
+      "id": "q023",
+      "type": "dropdown",
+      "text": "フォーム要件の解決策を提案する必要があります。何をお勧めしますか？",
+      "explanation": "正解: ①, ③",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "1",
+          "slot2": "3"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "電話番号の形式",
+          "options": [
+            {
+              "id": "1",
+              "text": "フィールド制限"
+            },
+            {
+              "id": "2",
+              "text": "ワークフロー"
+            },
+            {
+              "id": "3",
+              "text": "カスタム開発"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "担当者用案件フォームのセクション",
+          "options": [
+            {
+              "id": "1",
+              "text": "フィールド制限"
+            },
+            {
+              "id": "2",
+              "text": "ワークフロー"
+            },
+            {
+              "id": "3",
+              "text": "カスタム開発"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q024",
+      "type": "single-choice",
+      "text": "Relecloud に適したアプリを選択する必要があります。どのアプリをお勧めしますか?",
+      "explanation": "正解: ④（問題文がこれだけなら④。どんな企業でも「顧客問い合わせ」「サポート」業務は発生するため。）",
+      "options": [
+        {
+          "id": "1",
+          "text": "Dynamics 365 フィールドサービス（現場技術者が現地で作業する業務（設備保守・修理・設置など））"
+        },
+        {
+          "id": "2",
+          "text": "Dynamics 365 セールス（営業プロセスの管理（リード → 商談 → 受注など））"
+        },
+        {
+          "id": "3",
+          "text": "Dynamics 365 プロジェクトオペレーション（プロジェクト型業務の管理（工数・予算・収支））"
+        },
+        {
+          "id": "4",
+          "text": "Dynamics 365 カスタマーサービス（顧客問い合わせ・サポート業務の対応）"
+        }
+      ],
+      "correctAnswer": {
+        "type": "single",
+        "optionId": "4"
+      }
+    },
+    {
+      "id": "q025",
+      "type": "single-choice",
+      "text": "Dynamics 365 の計画的な実装のための認証ソリューションを推奨する必要があります。\n推奨事項には何を含める必要がありますか?",
+      "explanation": "正解: ①",
+      "options": [
+        {
+          "id": "1",
+          "text": "同期された ID を使用します。"
+        },
+        {
+          "id": "2",
+          "text": "Dynamics 365 Customer Service には Office 365 テナントを使用します。"
+        },
+        {
+          "id": "3",
+          "text": "Dynamics 365 Customer Service の新しいテナントを作成します。"
+        },
+        {
+          "id": "4",
+          "text": "フェデレーション ID を使用する"
+        }
+      ],
+      "correctAnswer": {
+        "type": "single",
+        "optionId": "1"
+      }
+    },
+    {
+      "id": "q026",
+      "type": "dropdown",
+      "text": "あなたは、家電製品のメンテナンスを提供する会社向けに Power Platformソリューションを設計しています。顧客がサービスの予約をスケジュールすると、派遣担当者が特定の時間と場所に 1人の技術者を割り当てます。\nソリューションは、各予定に割り当てられた技術者に関する情報と、技術者が予定に持参する必要があるツールのリストを取得する必要があります。\n取得した情報のデータ型を推奨する必要があります。\nどのデータ型を使用する必要がありますか?",
+      "explanation": "正解: ④, ①",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "4",
+          "slot2": "1"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "各サービス予約に割り当てられた技術者に関する情報を記録する。",
+          "options": [
+            {
+              "id": "1",
+              "text": "Choice"
+            },
+            {
+              "id": "2",
+              "text": "Choices"
+            },
+            {
+              "id": "3",
+              "text": "Customer"
+            },
+            {
+              "id": "4",
+              "text": "Lookup"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "技術者が予約訪問に持参する必要があるツールを選択する。",
+          "options": [
+            {
+              "id": "1",
+              "text": "Choice"
+            },
+            {
+              "id": "2",
+              "text": "Customer"
+            },
+            {
+              "id": "3",
+              "text": "Lookup"
+            },
+            {
+              "id": "4",
+              "text": "Text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q027",
+      "type": "dropdown",
+      "text": "ユーザー インターフェイスの要件を満たすソリューションを推奨する必要があります。\n何をお勧めしますか？",
+      "explanation": "正解: ①, ③",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "1",
+          "slot2": "3"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "最小値および最大値の許容範囲を含むゲージ測定値の視覚的表示。",
+          "options": [
+            {
+              "id": "1",
+              "text": "Power BI の放射状ゲージを作成して埋め込む。"
+            },
+            {
+              "id": "2",
+              "text": "カスタム視覚化コンポーネントを作成して埋め込む。"
+            },
+            {
+              "id": "3",
+              "text": "標準の Power Apps ドーナツチャート（円環グラフ）を作成して埋め込む。"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "現場の技術者が製造検査記録を確認できるように表示／アクセスを追加する。",
+          "options": [
+            {
+              "id": "1",
+              "text": "モバイルオフライン同期を設定する。"
+            },
+            {
+              "id": "2",
+              "text": "作業指示フォームに検査指示を追加する。"
+            },
+            {
+              "id": "3",
+              "text": "Dynamics 365 Field Service のサイトマップを変更する。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q028",
+      "type": "single-choice",
+      "text": "あなたは、教育部門の数少ない顧客のプロジェクトの能力を評価しています。\nソリューションは次の要件を満たす必要があります\n* カリキュラムと学生管理機能が含まれます。\n* 進行中の Microsoft プラットフォームのアップグレードに準拠します。\n* カスタム コーディングと構成を最小限に抑える\n解決策を提案する必要があります。何をお勧めしますか？",
+      "explanation": "正解: ④（企業向けソリューションのマーケットプレイス＝既製品を入手する場所）",
+      "options": [
+        {
+          "id": "1",
+          "text": "Power Apps ポータル"
+        },
+        {
+          "id": "2",
+          "text": "Microsoft Power Platform 管理センター"
+        },
+        {
+          "id": "3",
+          "text": "Microsoft 365 管理センター"
+        },
+        {
+          "id": "4",
+          "text": "AppSource"
+        }
+      ],
+      "correctAnswer": {
+        "type": "single",
+        "optionId": "4"
+      }
+    },
+    {
+      "id": "q029",
+      "type": "ordering",
+      "text": "ある企業は Power Platform ソリューションを使用しています。\n同社は、アプリケーションライフサイクル管理(ALM)機能をセットアップしてソリューションをソース管理に保存し、リリースプロセスを自動化するために使用する予定です。\nソリューションをソース管理に保存するには、初期ALMインフラストラクチャをセットアップする必要があります。\nどの 4つのアクションを順番に実行する必要がありますか?",
+      "explanation": "正解: ③, ④, ②, ①",
+      "orderItems": [
+        {
+          "id": "1",
+          "text": "パイプラインを実行します。"
+        },
+        {
+          "id": "2",
+          "text": "エクスポートパイプラインを作成します。"
+        },
+        {
+          "id": "3",
+          "text": "Azure DevOps プロジェクトを作成します。"
+        },
+        {
+          "id": "4",
+          "text": "Microsoft Power Platform ビルドツールをインストールします。"
+        },
+        {
+          "id": "5",
+          "text": "リリースパイプラインを作成します。"
+        },
+        {
+          "id": "6",
+          "text": "Microsoft Power Platform ソリューションのインポートのためのタスクを追加します。"
+        }
+      ],
+      "correctAnswer": {
+        "type": "ordering",
+        "orderedIds": [
+          "3",
+          "4",
+          "2",
+          "1"
+        ]
+      },
+      "requiredSelections": 4
+    },
+    {
+      "id": "q030",
+      "type": "multiple-choice",
+      "text": "あなたは、大規模なDataverse操作を実行するアプリケーションを含むソリューションを実装しています。アプリケーションは、サービス保護 APIの制限により機能の損失やパフォーマンスの損失が発生してはなりません。\nサービス保護 API 制限のメトリクスを評価する必要があります。\nどの 3つの指標を評価する必要がありますか?",
+      "explanation": "正解: ①, ④, ⑤",
+      "options": [
+        {
+          "id": "1",
+          "text": "ユーザーアカウントあたりの同時接続数。"
+        },
+        {
+          "id": "2",
+          "text": "Web サーバーごとの API リクエストの数。"
+        },
+        {
+          "id": "3",
+          "text": "プラグイン コード内で行われた API 呼び出しの量。"
+        },
+        {
+          "id": "4",
+          "text": "接続ごとに使用できる実行時間。"
+        },
+        {
+          "id": "5",
+          "text": "接続ごとの API リクエストの数。"
+        }
+      ],
+      "correctAnswer": {
+        "type": "multiple",
+        "optionIds": [
+          "1",
+          "4",
+          "5"
+        ]
+      },
+      "requiredSelections": 3
+    },
+    {
+      "id": "q031",
+      "type": "yes-no",
+      "text": "次の要件を満たす Power Platform ソリューションを設計する必要があります。\n削除中に行からデータをキャプチャして、自動化されたプロセスで使用します。\nAI を使用してフォームを処理し、紙ベースのフォームからのデータ入力を自動化します。\nすぐに使用できる Power Platformコンポーネントを使用して満たすことができる要件はどれですか?",
+      "explanation": "正解: Yes, Yes",
+      "statements": [
+        {
+          "id": "s1",
+          "text": "自動化プロセスで使用するために、行(レコード)の削除時にその行のデータを取得する。"
+        },
+        {
+          "id": "s2",
+          "text": "AI を使用してフォームを処理し、紙ベースのフォームからのデータ入力を自動化する。"
+        }
+      ],
+      "correctAnswer": {
+        "type": "yesno",
+        "answers": {
+          "s1": true,
+          "s2": true
+        }
+      }
+    },
+    {
+      "id": "q032",
+      "type": "single-choice",
+      "text": "企業には、Azure でホストされているカスタムの Webベースのソリューションがあります。\n会社に追加機能を提供する Power Platformソリューションを設計します。\nPower Platform ソリューションを Webベースのソリューションと統合する必要があります。\n何をお勧めしますか？",
+      "explanation": "正解: B",
+      "options": [
+        {
+          "id": "A",
+          "text": "接続参照"
+        },
+        {
+          "id": "B",
+          "text": "カスタム コネクタ"
+        },
+        {
+          "id": "C",
+          "text": "デスクトップ フロー"
+        },
+        {
+          "id": "D",
+          "text": "データゲートウェイ"
+        }
+      ],
+      "correctAnswer": {
+        "type": "single",
+        "optionId": "B"
+      }
+    },
+    {
+      "id": "q033",
+      "type": "multiple-choice",
+      "text": "ある会社には、サードパーティ システムと統合する Power Platformソリューションがあります。\nクライアントは、Accountsテーブルに対して予期しない更新が行われていることを報告します。\n問題の根本原因を特定する必要があります。\nどの 3つの場所を調査する必要がありますか?",
+      "explanation": "A. Accountsテーブルに対して、「いつ・どの列が・どのユーザー」で更新されてかを確認可能。\nB. ソリューションのインポート/更新履歴を確認するもの。\nC. プラグインが「どのイベント（Create/Updateなど）」で動くか。更新時に何かが自動実行されていないか確認する場所。\nD. プラグイン内部で、「どの値を受け取り/どの処理を行い/どんな更新をしたか」が分かる。\nE. Power Automate のフローの実行履歴を確認可能。サードパーティー製品とは関係ない。",
+      "options": [
+        {
+          "id": "A",
+          "text": "監査サマリビュー"
+        },
+        {
+          "id": "B",
+          "text": "ソリューション履歴"
+        },
+        {
+          "id": "C",
+          "text": "SDKメッセージ処理ステップ"
+        },
+        {
+          "id": "D",
+          "text": "プラグインのトレースログ"
+        },
+        {
+          "id": "E",
+          "text": "システムジョブの実行履歴"
+        }
+      ],
+      "correctAnswer": {
+        "type": "multiple",
+        "optionIds": [
+          "A",
+          "C",
+          "D"
+        ]
+      },
+      "requiredSelections": 3
+    },
+    {
+      "id": "q034",
+      "type": "ordering",
+      "text": "あなたは Microsoft Power Platform アーキテクトです。\nある環境から別の環境に構成データとテストデータを転送するプロセスを設計する必要があります。\n順番に実行することをお勧めする 4つのアクションはどれですか?",
+      "explanation": "正解: ⑤→③→④→①",
+      "orderItems": [
+        {
+          "id": "1",
+          "text": "ZIP ファイルデータをインポートします。"
+        },
+        {
+          "id": "2",
+          "text": "CSV ファイルデータをインポートします。"
+        },
+        {
+          "id": "3",
+          "text": "エクスポートするソースデータのスキーマを定義します。"
+        },
+        {
+          "id": "4",
+          "text": "そのスキーマを使用してデータをエクスポートします。"
+        },
+        {
+          "id": "5",
+          "text": "NuGet から Configuration Migration ツールをダウンロードします。"
+        },
+        {
+          "id": "6",
+          "text": "エクスポートするソースデータを定義するために個人用ビューを作成します。"
+        },
+        {
+          "id": "7",
+          "text": "エクスポートするソースデータのスキーマをダウンロードします。"
+        },
+        {
+          "id": "8",
+          "text": "AppSource から Configuration Migration ツールをダウンロードします。"
+        }
+      ],
+      "correctAnswer": {
+        "type": "ordering",
+        "orderedIds": [
+          "5",
+          "3",
+          "4",
+          "1"
+        ]
+      },
+      "requiredSelections": 4
+    },
+    {
+      "id": "q035",
+      "type": "dropdown",
+      "text": "あなたは、全国修理サービス向けの Microsoft Power Platformソリューションを設計しています。\nこのサービスには、顧客が電話して修理のスケジュールを立てるための 24時間対応のコールセンターがあります。\nこのソリューションでは、技術者を派遣して、顧客の問題のトラブルシューティングと修復を行います。顧客は顧客ポータルにサインインして、修理に関する情報を表示および記録します。\n修理作業のためのサードパーティの技術者との修理サービス契約ソリューションは、次の要件を満たす必要があります。\n* 技術者を派遣してお客様の問題のトラブルシューティングと修復を行います。\n* コール センターは、顧客の問題を記録する必要があります。\n* サードパーティの技術者は、割り当てられた修理サービスジョブにアクセスできる必要があります。\n認証戦略を推奨する必要があります。\nどの認証モデルを使用する必要がありますか?",
+      "explanation": "社内ユーザー\n→ Azure AD + セキュリティロール\n外部ユーザー（ポータル経由）\n→ 認証ユーザー + Webロール\n外部だが内部アプリを直接使う\n→ Azure AD B2B + セキュリティロール（Azure AD B2Bが明確に書かれているのなら③）",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "1",
+          "slot2": "4",
+          "slot3": "4"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "コールセンターの従業員",
+          "options": [
+            {
+              "id": "1",
+              "text": "Azure AD とセキュリティロール"
+            },
+            {
+              "id": "2",
+              "text": "Azure AD とウェブログ（Webロール）"
+            },
+            {
+              "id": "3",
+              "text": "認証されたユーザーとセキュリティロール"
+            },
+            {
+              "id": "4",
+              "text": "認証されたユーザーとウェブログ（Webロール）"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "修理サービスの顧客",
+          "options": [
+            {
+              "id": "1",
+              "text": "Azure AD とセキュリティロール"
+            },
+            {
+              "id": "2",
+              "text": "Azure AD とウェブログ（Webロール）"
+            },
+            {
+              "id": "3",
+              "text": "認証されたユーザーとセキュリティロール"
+            },
+            {
+              "id": "4",
+              "text": "認証されたユーザーとウェブログ（Webロール）"
+            }
+          ]
+        },
+        {
+          "id": "slot3",
+          "label": "サードパーティの技術者",
+          "options": [
+            {
+              "id": "1",
+              "text": "Azure AD とセキュリティロール"
+            },
+            {
+              "id": "2",
+              "text": "Azure AD とウェブログ（Webロール）"
+            },
+            {
+              "id": "3",
+              "text": "認証されたユーザーとセキュリティロール"
+            },
+            {
+              "id": "4",
+              "text": "認証されたユーザーとウェブログ（Webロール）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q036",
+      "type": "single-choice",
+      "text": "大企業では、従業員の離職率が高くなります。その結果、会社は毎日複数のシステムユーザーアカウントを追加または削除する必要があります。\nPower Apps と Dynamics 365アプリケーション全体のユーザーの大規模なグループのエンティティに複雑なセキュリティプロファイルを容易にするセキュリティコンセプトを推奨する必要があります。\n何をお勧めしますか？",
+      "explanation": "正解: D（離職率が高い＝ユーザーの追加削除が多いため、チームで管理すると良い）",
+      "options": [
+        {
+          "id": "A",
+          "text": "階層セキュリティ"
+        },
+        {
+          "id": "B",
+          "text": "フィールドレベルのセキュリティ"
+        },
+        {
+          "id": "C",
+          "text": "ユーザーアクセス管理"
+        },
+        {
+          "id": "D",
+          "text": "チーム権限"
+        }
+      ],
+      "correctAnswer": {
+        "type": "single",
+        "optionId": "1"
+      }
+    },
+    {
+      "id": "q037",
+      "type": "dropdown",
+      "text": "多国籍組織は、単一の Microsoft Power Platform環境を使用しています。インスタンスは、さまざまな地域のさまざまなユーザー向けに複数のカスタマイズをホストします。\n一部の地域のユーザーは、カスタマイズの時間が遅いと不満を漏らしています。\n主な要件に基づいてソリューションを設計する必要があります。\n何をお勧めしますか？",
+      "explanation": "単一インスタンス:\n協力・連携には、全員が同じ最新データセットを参照できる単一の環境が必要です。\nマルチジオ (Multi-Geo):\nPower PlatformのMulti-Geo機能は、単一のテナントと環境を維持しつつ、特定の地域のデータをその地域に地理的に近いデータセンターに保存し、ユーザーのアクセスを最適化します。これにより、共同作業を維持しながら、遅延の問題を軽減できます。",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "4",
+          "slot2": "1",
+          "slot3": "3"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "部門が顧客について積極的に協力・連携する。",
+          "options": [
+            {
+              "id": "1",
+              "text": "単一インスタンス。必要に応じて Microsoft Azure Traffic Manager を使用する。"
+            },
+            {
+              "id": "2",
+              "text": "各地域に 1 つの Power Platform 環境を持つマルチテナント。"
+            },
+            {
+              "id": "3",
+              "text": "異なる地域に複数のインスタンス。レポートには Power BI を使用する。"
+            },
+            {
+              "id": "4",
+              "text": "単一のマルチジオインスタンス。"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "地域ごとに顧客は分かれているが、同じ機能を使用し、グローバルなレポート作成が必要である。",
+          "options": [
+            {
+              "id": "1",
+              "text": "データレプリケーション（データ複製）を伴う、異なる地域に複数のインスタンス。"
+            },
+            {
+              "id": "2",
+              "text": "各地域に 1 つの Power Platform 環境を持つマルチテナント。"
+            },
+            {
+              "id": "3",
+              "text": "異なる地域に複数のインスタンス。レポートには Power BI を使用する。"
+            },
+            {
+              "id": "4",
+              "text": "単一のマルチジオインスタンス。"
+            }
+          ]
+        },
+        {
+          "id": "slot3",
+          "label": "地域ごとに機能と顧客は分かれているが、データに関するグローバルなレポート作成が必要である。",
+          "options": [
+            {
+              "id": "1",
+              "text": "単一インスタンス。Microsoft Azure Traffic Manager を使用する。"
+            },
+            {
+              "id": "2",
+              "text": "各地域に 1 つの Power Platform 環境を持つマルチテナント。"
+            },
+            {
+              "id": "3",
+              "text": "異なる地域に複数のインスタンス。レポートには Power BI を使用する。"
+            },
+            {
+              "id": "4",
+              "text": "単一のマルチジオインスタンス。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q038",
+      "type": "ordering",
+      "text": "あなたは、Power Platformソリューションを持っているクライアントのビジネス戦略を設計しています。\nクライアントは、データ損失が高いリスクを生み出す重要なデータを扱っています。\n関係者のためにフェイルオーバー プロセスを文書化する必要があります。\n順番に実行する必要がある 4つのアクションはどれですか?",
+      "explanation": "正解: ②→③→④→①",
+      "orderItems": [
+        {
+          "id": "1",
+          "text": "2回目の呼び出しが成功した場合、アプリケーションは正常に続行する。"
+        },
+        {
+          "id": "2",
+          "text": "アプリケーションはデータセンターに対してサービス呼び出しを行う。"
+        },
+        {
+          "id": "3",
+          "text": "アプリケーションはサービス呼び出しを試みた後、例外を受け取る。"
+        },
+        {
+          "id": "4",
+          "text": "アプリケーションは自動的にその呼び出しを再試行する。"
+        },
+        {
+          "id": "5",
+          "text": "アプリケーションは呼び出しをオンプレミスサーバーにリダイレクトする。"
+        }
+      ],
+      "correctAnswer": {
+        "type": "ordering",
+        "orderedIds": [
+          "2",
+          "3",
+          "4",
+          "1"
+        ]
+      },
+      "requiredSelections": 4
+    },
+    {
+      "id": "q039",
+      "type": "multiple-choice",
+      "text": "会社には、サードパーティ の マーケティング アプリケーション に接続するPower Platform環境があります。\n同社は、Power Platform リード テーブルのデータがマーケティングアプリケーションのデータと一致しないと報告しています。問題は次のとおりです。\n＊リード テーブルとサードパーティ アプリケーションの所有者データが一致しない。\n＊トピック列には、マーケティングアプリケーションの関連レコードよりも多くの情報が含まれている。\n＊電話番号の形式には違いがある。\n問題の原因となっているプロセスを特定する必要があります。\n観察された違いを引き起こしていると考えられる 3つのプロセスはどれですか?",
+      "explanation": "重複検出ルールは、既存データと重複確認をするだけであり、データそのものを書き換えない。",
+      "options": [
+        {
+          "id": "A",
+          "text": "データフロー"
+        },
+        {
+          "id": "B",
+          "text": "ビジネス ルール"
+        },
+        {
+          "id": "C",
+          "text": "従来のワークフロー"
+        },
+        {
+          "id": "D",
+          "text": "Power Automate クラウド フロー"
+        },
+        {
+          "id": "E",
+          "text": "重複検出ルール"
+        }
+      ],
+      "correctAnswer": {
+        "type": "multiple",
+        "optionIds": [
+          "A",
+          "B",
+          "D"
+        ]
+      },
+      "requiredSelections": 3
+    },
+    {
+      "id": "q040",
+      "type": "single-choice",
+      "text": "古本を販売している会社です。この会社は、部屋、棚のデータベースフィールドを使用して、本の場所に関するデータを既存のシステムに保存します。会社は、既存のシステムから Power Platformソリューションにデータをインポートする必要があります。\n新しいソリューションの設計に合わせて既存のデータを変更する必要があります。\nインポート プロセス中に部屋と棚のフィールドを 1つの列に結合するソリューションを推奨する必要があります。\nどのツールをお勧めしますか?",
+      "explanation": "Power Platform データフローは、Power Query ベースのため、「インポートしながらデータを作り替える」ことが可能。\nデータ インポート ウィザードでは、基本的な列マッピングのみで、列の 結合・加工は不可。",
+      "options": [
+        {
+          "id": "A",
+          "text": "Power Platform データフロー"
+        },
+        {
+          "id": "B",
+          "text": "データ インポート ウィザード"
+        },
+        {
+          "id": "C",
+          "text": "CSVからインポート"
+        },
+        {
+          "id": "D",
+          "text": "マイクロソフト エクセル オンライン"
+        }
+      ],
+      "correctAnswer": {
+        "type": "single",
+        "optionId": "A"
+      }
+    },
+    {
+      "id": "q041",
+      "type": "single-choice",
+      "text": "ある会社は、Power Platformソリューションにインタラクティブなチェックリストを追加して、営業担当者が見込み客を評価するときに同じ手順に従っていることを確認したいと考えています。\nこのチェックリストを組み込んだソリューションを推奨する必要があります。\n何をお勧めしますか？",
+      "explanation": "正解: D",
+      "options": [
+        {
+          "id": "A",
+          "text": "Microsoft お客様の声"
+        },
+        {
+          "id": "B",
+          "text": "ビジネス プロセス モデラー タスク ガイド"
+        },
+        {
+          "id": "C",
+          "text": "ダッシュボード"
+        },
+        {
+          "id": "D",
+          "text": "ビジネス プロセス フロー"
+        }
+      ],
+      "correctAnswer": {
+        "type": "single",
+        "optionId": "D"
+      }
+    },
+    {
+      "id": "q042",
+      "type": "dropdown",
+      "text": "あなたは会社向けの Microsoft Power Platform ソリューションを設計しています。\nどのコンポーネントをお勧めしますか?",
+      "explanation": "正解: ①、①（更新を促すのが目的のため）",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "1",
+          "slot2": "1"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "カスタム列「Reason（理由）」にデータが入力されている場合に限り、ユーザーがレコードのステータスを変更できるようにする。",
+          "options": [
+            {
+              "id": "1",
+              "text": "ビジネスルール"
+            },
+            {
+              "id": "2",
+              "text": "Power Automateフロー"
+            },
+            {
+              "id": "3",
+              "text": "非同期プラグイン"
+            },
+            {
+              "id": "4",
+              "text": "バックグラウンドワークフロー"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "営業案件が成立（won）または不成立（lost）になったとき、各営業案件プロダクトレコードを更新するようにユーザーに促す。",
+          "options": [
+            {
+              "id": "1",
+              "text": "JavaScriptコード"
+            },
+            {
+              "id": "2",
+              "text": "リアルタイムワークフロー"
+            },
+            {
+              "id": "3",
+              "text": "Power Automateフロー"
+            },
+            {
+              "id": "4",
+              "text": "非同期プラグイン"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q043",
+      "type": "multiple-choice",
+      "text": "ある企業が Dynamics 365 Sales を実装しています。\n同社は、独自のカスタム計算を実装するために、すぐに使用できる見積もり計算をオフにしました。\nユーザーが見積もりの品目を更新する場合、見積もりの更新された合計がリアルタイムで表示されることを期待しています。\nユーザーは一貫性のない動作を報告しており、一部の集計には最大2時間かかります。\nシステム設計を見直して、多くの非同期ワークフローに気付きました。\nリアルタイムでの計算を可能にするソリューションを推奨する必要があります。\nどの 2つのオプションをお勧めしますか?",
+      "explanation": "リアルタイムで計算したいためBの非同期は×\nCのBPFは計算処理に不向きのため×",
+      "options": [
+        {
+          "id": "A",
+          "text": "非同期ワークフローを 1 つのリアルタイム ワークフローに統合します。"
+        },
+        {
+          "id": "B",
+          "text": "複数の非同期ワークフローを 1 つの非同期ワークフローに統合します。"
+        },
+        {
+          "id": "C",
+          "text": "ビジネス プロセス フローを実装して、既存のワークフローを置き換えます。"
+        },
+        {
+          "id": "D",
+          "text": "非同期ワークフローを同期プラグインに変換します。"
+        }
+      ],
+      "correctAnswer": {
+        "type": "multiple",
+        "optionIds": [
+          "A",
+          "D"
+        ]
+      },
+      "requiredSelections": 2
+    },
+    {
+      "id": "q044",
+      "type": "single-choice",
+      "text": "会社は、Microsoft Excelファイルに連絡先のリストを持っています。\n会社は、連絡先情報を読み込もうとしています。\nPower Platform ソリューションにデータ読み込みソリューションを推奨する必要があります。\n何をお勧めしますか？",
+      "explanation": "正解: C",
+      "options": [
+        {
+          "id": "A",
+          "text": "Excel テンプレート機能を使用します。"
+        },
+        {
+          "id": "B",
+          "text": "静的ワークシートの既存の連絡先リストに追加します。"
+        },
+        {
+          "id": "C",
+          "text": "Excel からのインポート機能を使用します。"
+        }
+      ],
+      "correctAnswer": {
+        "type": "single",
+        "optionId": "C"
+      }
+    },
+    {
+      "id": "q045",
+      "type": "dropdown",
+      "text": "Microsoft Power Platform実装のデータ損失ポリシーを設計しています。\n次の要件があります。\n* HTTP コネクタを使用するソリューションには、他のコネクタを含めないでください。\n* Azure DevOps コネクタの使用を許可します。\n* Microsoft Forms コネクタを使用しないようにします。\n各コネクタを追加するデータ ポリシー グループを決定する必要があります。",
+      "explanation": "HTTPコネクタは言い換えると、「単独で利用したい」になるので反対グループの②にする\nBlockedは「使用しない」、「禁止する」場合",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "2",
+          "slot2": "1",
+          "slot3": "3"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "HTTP コネクタ",
+          "options": [
+            {
+              "id": "1",
+              "text": "Business"
+            },
+            {
+              "id": "2",
+              "text": "Non-Business"
+            },
+            {
+              "id": "3",
+              "text": "Blocked"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "Azure DevOps コネクタ",
+          "options": [
+            {
+              "id": "1",
+              "text": "Business"
+            },
+            {
+              "id": "2",
+              "text": "Non-Business"
+            },
+            {
+              "id": "3",
+              "text": "Blocked"
+            }
+          ]
+        },
+        {
+          "id": "slot3",
+          "label": "Microsoft Forms コネクタ",
+          "options": [
+            {
+              "id": "1",
+              "text": "Business"
+            },
+            {
+              "id": "2",
+              "text": "Non-Business"
+            },
+            {
+              "id": "3",
+              "text": "Blocked"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q046",
+      "type": "single-choice",
+      "text": "あなたは Power Platform ソリューションを設計しています。\n同社は、開発チームが繰り返し可能なコンポーネントの構造を採用することを望んでいます。\n実装チームは、さまざまなエンティティとフォームで再利用できます。\nこれらの要件を満たすテクノロジを推奨する必要があります。\n開発者が実装チームを支援するために採用することをお勧めするテクノロジはどれですか?",
+      "explanation": "正解: B",
+      "options": [
+        {
+          "id": "A",
+          "text": "JavaScript"
+        },
+        {
+          "id": "B",
+          "text": "Power Apps コンポーネント フレームワーク コントロール"
+        },
+        {
+          "id": "C",
+          "text": "Web リソース"
+        },
+        {
+          "id": "D",
+          "text": "キャンバス アプリ"
+        }
+      ],
+      "correctAnswer": {
+        "type": "single",
+        "optionId": "B"
+      }
+    },
+    {
+      "id": "q047",
+      "type": "single-choice",
+      "text": "初期検査チェックリストを作成するためのソリューションを推奨する必要があります。\n何をお勧めしますか？",
+      "explanation": "Power Apps Maker ポータルは環境管理やアプリ・フロー・テーブルを管理する場所で、アプリを実際に設計・作成する場所ではない。",
+      "options": [
+        {
+          "id": "A",
+          "text": "Power Apps Maker ポータル"
+        },
+        {
+          "id": "B",
+          "text": "Dataverse for Teams"
+        },
+        {
+          "id": "C",
+          "text": "Power Apps Studio"
+        },
+        {
+          "id": "D",
+          "text": "データ移行ユーティリティ"
+        }
+      ],
+      "correctAnswer": {
+        "type": "single",
+        "optionId": "C"
+      }
+    },
+    {
+      "id": "q048",
+      "type": "dropdown",
+      "text": "再検査要件を満たすコンポーネントを推奨する必要があります。\nどのコンポーネントをお勧めしますか?",
+      "explanation": "正解: ③、④（親子の集計・評価）",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "3",
+          "slot2": "4"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "再検査命令の作成を開始する。",
+          "options": [
+            {
+              "id": "1",
+              "text": "データフロー"
+            },
+            {
+              "id": "2",
+              "text": "ビジネスルール"
+            },
+            {
+              "id": "3",
+              "text": "Power Automate フロー"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "チェックリストの評価に基づいて、全体的な検査の評価を自動的に設定する。",
+          "options": [
+            {
+              "id": "1",
+              "text": "From event (イベントから)"
+            },
+            {
+              "id": "2",
+              "text": "ビジネスルール"
+            },
+            {
+              "id": "3",
+              "text": "Custom action (カスタムアクション)"
+            },
+            {
+              "id": "4",
+              "text": "Rollup data type (ロールアップデータ型)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q049",
+      "type": "dropdown",
+      "text": "会社は、従業員を管理するための Power Platform ソリューションを作成しています。\n会社には次の要件があります。\n*従業員が解雇された場合、人事管理者のみが従業員の雇用ステータスを変更できるようにします。\n*承認されたデバイスタイプのみがソリューションと会社のデータにアクセスできるようにします。\n要件を満たすソリューションを推奨する必要があります。",
+      "explanation": "フィールドセキュリティプロファイル\n特定の列単位で [読み取り/作成/更新] および列の [表示/非表示] の制御できるが、どのレコードが見えるかは無関係。\n階層セキュリティプロファイル\n組織の上下関係（上司・部下）に基づいて、部下のレコードを参照できるようにする仕組み",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "3",
+          "slot2": "3"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "従業員が解雇されたとき、人事マネージャーのみが従業員の雇用ステータスを変更できるようにする。",
+          "options": [
+            {
+              "id": "1",
+              "text": "チームアクセス"
+            },
+            {
+              "id": "2",
+              "text": "プライバシー設定"
+            },
+            {
+              "id": "3",
+              "text": "フィールドセキュリティプロファイル"
+            },
+            {
+              "id": "4",
+              "text": "階層セキュリティプロファイル"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "承認されたデバイスタイプのみがソリューションと会社のデータにアクセスできるようにする。",
+          "options": [
+            {
+              "id": "1",
+              "text": "エンドポイントセキュリティ"
+            },
+            {
+              "id": "2",
+              "text": "コンプライアンスポリシー"
+            },
+            {
+              "id": "3",
+              "text": "条件付きアクセス"
+            },
+            {
+              "id": "4",
+              "text": "モバイル脅威統合"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q050",
+      "type": "dropdown",
+      "text": "あなたは顧客の要件分析を行っています。\n顧客は次の要件を提供します。\n*Power Platform のストレージ容量は 100% 未満のままにする必要があります。\n*顧客サービス担当者は、ケースが割り当てられたときに電子メールを送信する必要があります。\n*ヘルプ デスクの技術者がタスク行を削除しようとすると、エラーメッセージが表示される必要があります。\n*実稼働環境では、プラグインの合格率が 99% を超えている必要があります。\n要件が機能的か非機能的かを判断する必要があります。\nどの要件タイプを使用する必要がありますか?",
+      "explanation": "正解: ②、①、①、②",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "2",
+          "slot2": "1",
+          "slot3": "1",
+          "slot4": "2"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "Power Platformのストレージ容量は100パーセント未満を維持する必要がある。",
+          "options": [
+            {
+              "id": "1",
+              "text": "Functional (機能要件)"
+            },
+            {
+              "id": "2",
+              "text": "Non-functional (非機能要件)"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "カスタマーサービスの担当者は、ケースが割り当てられたときにメールが送信される必要がある。",
+          "options": [
+            {
+              "id": "1",
+              "text": "Functional (機能要件)"
+            },
+            {
+              "id": "2",
+              "text": "Non-functional (非機能要件)"
+            }
+          ]
+        },
+        {
+          "id": "slot3",
+          "label": "ヘルプデスクの技術者は、タスク行を削除しようとしたときにエラーメッセージが表示される必要がある。",
+          "options": [
+            {
+              "id": "1",
+              "text": "Functional (機能要件)"
+            },
+            {
+              "id": "2",
+              "text": "Non-functional (非機能要件)"
+            }
+          ]
+        },
+        {
+          "id": "slot4",
+          "label": "本番環境でのプラグインの合格率（成功率）は 99 パーセントを超えて維持する必要がある。",
+          "options": [
+            {
+              "id": "1",
+              "text": "Functional (機能要件)"
+            },
+            {
+              "id": "2",
+              "text": "Non-functional (非機能要件)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q051",
+      "type": "single-choice",
+      "text": "レポート要件を満たすために必要な情報を収集するためのソリューションを推奨する必要があります。\n何をお勧めしますか？",
+      "explanation": "正解: A",
+      "options": [
+        {
+          "id": "A",
+          "text": "ビジネス プロセス フロー"
+        },
+        {
+          "id": "B",
+          "text": "ビジネス ルール"
+        },
+        {
+          "id": "C",
+          "text": "ビジネスイベント"
+        },
+        {
+          "id": "D",
+          "text": "ビジネス プロセス モデラー"
+        }
+      ],
+      "correctAnswer": {
+        "type": "single",
+        "optionId": "A"
+      }
+    },
+    {
+      "id": "q052",
+      "type": "dropdown",
+      "text": "病院向けのモデル駆動型アプリを設計しています。\nこのアプリは、次のような病院のチームを追跡するために使用されます。\n使用するチーム タイプを推奨する必要があります。\nどのチームタイプをお勧めしますか?",
+      "explanation": "一時的・動的なチームの場合は「アクセスチーム」\n固定チームでデータの可視性の境界を作るには「所有者チーム」",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot2": "2",
+          "slot3": "1",
+          "slot4": "2"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot2",
+          "label": "清掃チーム",
+          "options": [
+            {
+              "id": "1",
+              "text": "アクセス"
+            },
+            {
+              "id": "2",
+              "text": "所有者"
+            }
+          ]
+        },
+        {
+          "id": "slot3",
+          "label": "救急室チーム",
+          "options": [
+            {
+              "id": "1",
+              "text": "アクセス"
+            },
+            {
+              "id": "2",
+              "text": "所有者"
+            }
+          ]
+        },
+        {
+          "id": "slot4",
+          "label": "請求チーム",
+          "options": [
+            {
+              "id": "1",
+              "text": "アクセス"
+            },
+            {
+              "id": "2",
+              "text": "所有者"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q053",
+      "type": "multiple-choice",
+      "text": "クライアントは、Dynamics 365 Sales、Power BI データセット、および Power BIデータフローを使用します。\nDynamics 365 Sales の実装には、データ エクスポートを制限するセキュリティロールがあります。Dynamics 365 Sales と同じように、Power BIでもデータに同じ制限が適用されるようにする必要があります。\n機密データが見られないようにセキュリティを設計する必要があります。\nどの 2つのアクションをお勧めしますか?",
+      "explanation": "Dataverseのセキュリティロール・行レベルセキュリティを継承することができる。\nBはD365側だけの制限のため不正解\nDはエクスポート制限ではないため不正解",
+      "options": [
+        {
+          "id": "A",
+          "text": "Power BI レポートを設定する前に、Microsoft Dataverse の制限を使用します。"
+        },
+        {
+          "id": "B",
+          "text": "Dynamics 365 Sales での役割を許可されたデータのみに制限して、Microsoft Excelにエクスポートできないようにします。"
+        },
+        {
+          "id": "C",
+          "text": "ロールを制限し、Microsoft Excel へのエクスポートが Dynamics 365 Sales と Power BIの両方で許可されないようにします。"
+        },
+        {
+          "id": "D",
+          "text": "Power BIダッシュボードは、このデータの表示がサポートされているユーザーとのみ共有してください。"
+        }
+      ],
+      "correctAnswer": {
+        "type": "multiple",
+        "optionIds": [
+          "A",
+          "C"
+        ]
+      },
+      "requiredSelections": 2
+    },
+    {
+      "id": "q054",
+      "type": "multiple-choice",
+      "text": "多数の複雑なフォームを持つモデル駆動型アプリのソリューション設計を評価しています。\nフォームの多くは、読み込みに最大 10 秒かかります。\nフォームの読み込み時間を短縮するソリューションを推奨する必要があります。\nどの 2つのソリューションをお勧めしますか?",
+      "explanation": "正解: A,D",
+      "options": [
+        {
+          "id": "A",
+          "text": "スクリプトを統合および削減します。"
+        },
+        {
+          "id": "B",
+          "text": "同期 JavaScript 要求を使用します。"
+        },
+        {
+          "id": "C",
+          "text": "スクリプトを OnLoad イベントに移動します。"
+        },
+        {
+          "id": "D",
+          "text": "不要なフィールドを削除します。"
+        }
+      ],
+      "correctAnswer": {
+        "type": "multiple",
+        "optionIds": [
+          "A",
+          "D"
+        ]
+      },
+      "requiredSelections": 2
+    },
+    {
+      "id": "q055",
+      "type": "dropdown",
+      "text": "あなたは、プロジェクトの統合を設計する Microsoft Power Platformアーキテクトです。\n次の統合要件があります。\n統合要件には Azure サービスを使用する必要があります。\nどの Azure サービスを使用する必要がありますか?",
+      "explanation": "正解: ①、①、①、①",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "1",
+          "slot2": "1",
+          "slot3": "1",
+          "slot4": "1"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "常に利用できるわけではなく、大量のメッセージを処理する能力が制限されているシステムにリクエストを投稿します。",
+          "options": [
+            {
+              "id": "1",
+              "text": "Azure Service Bus"
+            },
+            {
+              "id": "2",
+              "text": "Azure Notification Hub"
+            },
+            {
+              "id": "3",
+              "text": "Azure Active Directory"
+            },
+            {
+              "id": "4",
+              "text": "Azure ExpressRoute"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "オンプレミスサービスとクラウドベースのモデル駆動型 Microsoft Power Platformアプリ間のピアツーピア通信を許可します。",
+          "options": [
+            {
+              "id": "1",
+              "text": "Azure Relay"
+            },
+            {
+              "id": "2",
+              "text": "Azure SQL"
+            },
+            {
+              "id": "3",
+              "text": "Azure Cognitive Services"
+            },
+            {
+              "id": "4",
+              "text": "Azure API Management"
+            }
+          ]
+        },
+        {
+          "id": "slot3",
+          "label": "大量のデータを会社のWebサイトからライブPower BIダッシュボードにストリーミングします。",
+          "options": [
+            {
+              "id": "1",
+              "text": "Azure Event Hubs"
+            },
+            {
+              "id": "2",
+              "text": "Azure Service Bus"
+            },
+            {
+              "id": "3",
+              "text": "Azure SQL"
+            }
+          ]
+        },
+        {
+          "id": "slot4",
+          "label": "従量制で請求できる Dynamics 365 とのエンタープライズレベルの統合をサポートします。",
+          "options": [
+            {
+              "id": "1",
+              "text": "Azure Logic Apps"
+            },
+            {
+              "id": "2",
+              "text": "Azure Functions"
+            },
+            {
+              "id": "3",
+              "text": "Azure Service Bus"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q056",
+      "type": "dropdown",
+      "text": "フィットギャップ要件分析を実行しています。\n要件を満たすには、Microsoft Power Platform コンポーネントを選択する必要があります。\nどのコンポーネントを使用する必要がありますか?",
+      "explanation": "正解: ①？（Azure Service Busが選択肢にあればそれ）、①、①",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "1",
+          "slot2": "1",
+          "slot3": "1"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "常に利用できるわけではなく、大量のメッセージを処理する能力が制限されているシステムにリクエストを投稿します。",
+          "options": [
+            {
+              "id": "1",
+              "text": "モデル駆動型アプリ"
+            },
+            {
+              "id": "2",
+              "text": "Power Virtual Agents (Copilot Studio)"
+            },
+            {
+              "id": "3",
+              "text": "Dynamics 365 Customer Voice"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "プロジェクト会計を管理し、国際財務報告基準に準拠した収益を認識する。期限切れのタスクについてユーザーに毎日通知する。",
+          "options": [
+            {
+              "id": "1",
+              "text": "Dynamics 365 Project Operations"
+            },
+            {
+              "id": "2",
+              "text": "Dynamics 365 Field Service"
+            },
+            {
+              "id": "3",
+              "text": "Dynamics 365 Finance"
+            }
+          ]
+        },
+        {
+          "id": "slot3",
+          "label": "期限切れのタスクについてユーザーに毎日通知する。",
+          "options": [
+            {
+              "id": "1",
+              "text": "Power Automate"
+            },
+            {
+              "id": "2",
+              "text": "Power Virtual Agents (Copilot Studio)"
+            },
+            {
+              "id": "3",
+              "text": "AppSource"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q057",
+      "type": "dropdown",
+      "text": "複数のデータソースからDataverseにデータを継続的にインポートするソリューションを設計しています。ソリューションは、次の要件を満たす必要があります。\n要件ごとにコンポーネントを選択する必要があります\nどのコンポーネントを使用する必要がありますか?",
+      "explanation": "Power Apps データフロー（Dataverse データフロー）\nPower Query ベースのデータ変換・拡張が可能。AI Builder と統合でき、「予測・分類・テキスト分析」が可能。また、Dataverse への 継続的インポート用途に最適。\nLogic Apps\n例外処理・再試行・分岐・通知を標準で持つ。複数データソース × Dataverse の統合で失敗レコードの一元管理が可能。エラー時の再処理・通知・ログ出力が設計しやすい。",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "1",
+          "slot2": "2"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "AIと機械学習モデルでデータを拡張する。",
+          "options": [
+            {
+              "id": "1",
+              "text": "Power Apps データフロー"
+            },
+            {
+              "id": "2",
+              "text": "Logic Apps"
+            },
+            {
+              "id": "3",
+              "text": "分析データフロー"
+            },
+            {
+              "id": "4",
+              "text": "Azure Data Factory"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "インポートに失敗したレコードに対して、統合されたエラー処理を組み込む。",
+          "options": [
+            {
+              "id": "1",
+              "text": "Power Apps データフロー"
+            },
+            {
+              "id": "2",
+              "text": "Logic Apps"
+            },
+            {
+              "id": "3",
+              "text": "分析データフロー"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q058",
+      "type": "dropdown",
+      "text": "Power Platform ソリューションのセキュリティ モデルを設計しています。\nセキュリティ モデルは、次の要件を満たす必要があります。\n*Power Automate コネクタ間のデータ共有を制限します。\n*環境管理者が、有効なユーザーリストでアクセスを必要とするユーザーのみを表示するようにします。\nソリューションのセキュリティ機能を推奨する必要があります。\n何をお勧めしますか？",
+      "explanation": "正解: ②、①",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "2",
+          "slot2": "1"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "Power Automate コネクタ間でのデータ共有を制限する",
+          "options": [
+            {
+              "id": "1",
+              "text": "セキュリティグループ"
+            },
+            {
+              "id": "2",
+              "text": "データ損失防止ポリシー"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "環境管理者が、アクセスを必要とするユーザーのみを有効なユーザーリストに表示されるようにする",
+          "options": [
+            {
+              "id": "1",
+              "text": "セキュリティグループ"
+            },
+            {
+              "id": "2",
+              "text": "データ損失防止ポリシー"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q059",
+      "type": "single-choice",
+      "text": "ある企業は、モバイル画像診断サービスを提供しています。\nあなたは、患者の予約と手続きを管理するための Power Apps ソリューションを設計しています。\n患者の記録は、会社のクラウド患者請求システム内に保存されます。\n患者 IDは、アプリ内に保存される唯一の情報である必要があります。\n患者の身元を確認するために、患者の名前と生年月日が技術者に見える必要があります。\n患者情報を表示するためのソリューションを推奨する必要があります。\n何をお勧めしますか？",
+      "explanation": "正解: A",
+      "options": [
+        {
+          "id": "A",
+          "text": "仮想テーブル"
+        },
+        {
+          "id": "B",
+          "text": "ビジネス ルール"
+        },
+        {
+          "id": "C",
+          "text": "プライバシー設定"
+        },
+        {
+          "id": "D",
+          "text": "データゲートウェイ"
+        },
+        {
+          "id": "E",
+          "text": "カスタム データフロー"
+        }
+      ],
+      "correctAnswer": {
+        "type": "single",
+        "optionId": "A"
+      }
+    },
+    {
+      "id": "q060",
+      "type": "multiple-choice",
+      "text": "あなたは会社の Power Platformソリューションを設計しています。\n会社は、各従業員にタブレット デバイスを支給します。\n同社は機会管理プロセスを簡素化し、可能であれば自動化したいと考えています。\n同社は、次の要件を特定しています。\n*ユーザーは、機会管理プロセスの各ステップでどのデータを入力する必要があるかを知るための視覚的なガイドが必要です。\n*すべてのデータが入力されると、システムは自動的に機会をマネージャーに割り当てて承認を得る必要があります。\n*システムは、プッシュ通知を使用して、案件が割り当てられるたびに担当者に通知する必要があります。\n*ユーザーがプッシュ通知を選択すると、関連する機会が表示される必要があります。\n要件を満たす Power Platform コンポーネントを推奨する必要があります。\nどの 3つの Power Platform コンポーネントを推奨する必要がありますか?",
+      "explanation": "正解: A,B,E",
+      "options": [
+        {
+          "id": "A",
+          "text": "ビジネス プロセス フロー"
+        },
+        {
+          "id": "B",
+          "text": "Power Apps モバイル アプリ"
+        },
+        {
+          "id": "C",
+          "text": "Power Virtual Agents チャットボット"
+        },
+        {
+          "id": "D",
+          "text": "Power Automate デスクトップ フロー"
+        },
+        {
+          "id": "E",
+          "text": "Power Automate クラウド フロー"
+        }
+      ],
+      "correctAnswer": {
+        "type": "multiple",
+        "optionIds": [
+          "A",
+          "B",
+          "E"
+        ]
+      },
+      "requiredSelections": 3
+    },
+    {
+      "id": "q061",
+      "type": "multiple-choice",
+      "text": "Dataverse を使用するPower Platformソリューションを設計しています。\nDataverse 内で為替レートを更新する方法を推奨する必要があります。\nこの目標を達成するための 2つの方法は何ですか?",
+      "explanation": "iframeは表示のみ。更新はされない。\nPower BIは更新用途でなく、参照・分析が主目的のサービス。",
+      "options": [
+        {
+          "id": "A",
+          "text": "AppSource でビルド済みのソリューションを確認します。"
+        },
+        {
+          "id": "B",
+          "text": "為替レートの外部ソースへのカスタム接続または HTTP 要求を使用する Power Automateフローを作成します。"
+        },
+        {
+          "id": "C",
+          "text": "外貨両替サービスを指す iframe をモデル駆動型アプリに埋め込みます。"
+        },
+        {
+          "id": "D",
+          "text": "Power Blコネクタを使用して、現在の為替レートでDataverseを更新するリンクを確立します。"
+        }
+      ],
+      "correctAnswer": {
+        "type": "multiple",
+        "optionIds": [
+          "A",
+          "B"
+        ]
+      },
+      "requiredSelections": 2
+    },
+    {
+      "id": "q062",
+      "type": "dropdown",
+      "text": "企業はオンプレミスのデータ ウェアハウスと分析ソリューションを持っています。\nデータウェアハウスは、5年以上の運用データを表す複数の多次元データキューブで構成されています。\nデータウェアハウスは、20の異なるシステムから供給されたデータを統合して正規化します。\n同社は、既存のソリューションを、データウェアハウスに接続するPower Platformソリューションに置き換えることを計画しています。\nこの会社は、事業計画をサポートするために、Microsoft Teams チャネルで経営幹部に分析情報を提供したいと考えています。\n新しいソリューションは、次の要件を満たす必要があります。\n*現在のデータ ウェアハウスをサポートします。\n*ソリューションは、データへのドリルスルー機能をサポートする必要があります。\n解決策を提案する必要があります。\n何をお勧めしますか？",
+      "explanation": "データゲートウェイ＿接続用。保存・正規化はしない。\nAzure データレイク＿生データ向き。既存キューブをそのまま生かす設計ではない。\nDataverse for Teams＿小規模・チーム向け。5年分 × 多次元 × 20システムは無理。\nAzure Analytics Service＿多次元モデル・セマンティックモデル向き。Power BIと超相性がいい。",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "4",
+          "slot2": "1"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "データの保存と正規化",
+          "options": [
+            {
+              "id": "1",
+              "text": "データゲートウェイ"
+            },
+            {
+              "id": "2",
+              "text": "Azure データレイク"
+            },
+            {
+              "id": "3",
+              "text": "Dataverse for Teams"
+            },
+            {
+              "id": "4",
+              "text": "Azure Analytics Service"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "さまざまなチームからの主要な運用指標の可視化",
+          "options": [
+            {
+              "id": "1",
+              "text": "Power BI"
+            },
+            {
+              "id": "2",
+              "text": "AI ビルダー"
+            },
+            {
+              "id": "3",
+              "text": "チーム アダプティブ カード"
+            },
+            {
+              "id": "4",
+              "text": "Microsoft Teams 統合オブジェクト"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q063",
+      "type": "dropdown",
+      "text": "統合要件を満たすソリューションを推奨する必要があります。",
+      "explanation": "予約ルール：自動割り当ての「条件定義」\nスケジュールボード：ボトルネックの解消\n熟練度モデル：スキルマッチ\nAzure IoT Hub：リアルタイム測定値を自動入力。PaaSのため設計・構築が必要だが自由度が高い。\nAzure IoT Central：リアルタイム測定値を自動入力。SaaSのため、ローコードで迅速な導入が可能。\n※IoT CentralはIoT Hubの上位互換だが、自前でCentralを導入している必要があるため不正解。",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "2",
+          "slot2": "2"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "検査のボトルネックを表示、割り当て、解決します",
+          "options": [
+            {
+              "id": "1",
+              "text": "予約ルール"
+            },
+            {
+              "id": "2",
+              "text": "スケジュールボード"
+            },
+            {
+              "id": "3",
+              "text": "熟練度モデル"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "検査ゲージの測定値を自動入力",
+          "options": [
+            {
+              "id": "1",
+              "text": "カスタムコネクタ"
+            },
+            {
+              "id": "2",
+              "text": "Azure IoT Hub コネクタ"
+            },
+            {
+              "id": "3",
+              "text": "Azure IoT Central コネクタ"
+            },
+            {
+              "id": "4",
+              "text": "Microsoft Dataverse コネクタ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q064",
+      "type": "multiple-choice",
+      "text": "あなたはプロジェクトに取り組んでいるPower Platform ソリューションアーキテクトです。\n外部アプリケーションとPower Platformソリューションの間で API 呼び出しが送信されています。\n特定の時間枠内のユーザーごとのリクエスト数はさまざまです。\n一部のユーザーは、サービス保護 API の制限を超えている可能性があります。\nAPI がサービス保護制限に準拠していることを確認する必要があります。\nどの 3つの指標を確認する必要がありますか?",
+      "explanation": "A,C,Eはユーザーごとの負荷を測る指標\nB,Dはシステム全体の負荷を測る指標",
+      "options": [
+        {
+          "id": "A",
+          "text": "ユーザーが 1 日に実行できるリクエストの数。"
+        },
+        {
+          "id": "B",
+          "text": "1日に処理できるリクエストの総数。"
+        },
+        {
+          "id": "C",
+          "text": "ユーザーが作成できる同時リクエストの数。"
+        },
+        {
+          "id": "D",
+          "text": "すべてのユーザーによるリクエストの合計実行時間。"
+        },
+        {
+          "id": "E",
+          "text": "ユーザーからの要求を処理するために必要な合計実行時間。"
+        }
+      ],
+      "correctAnswer": {
+        "type": "multiple",
+        "optionIds": [
+          "A",
+          "C",
+          "E"
+        ]
+      },
+      "requiredSelections": 3
+    },
+    {
+      "id": "q065",
+      "type": "dropdown",
+      "text": "組織は、Microsoft Power Platform ソリューション アーキテクチャを最適化しています。\n最適化では、次の点に対処する必要があります：\n*オプションセットおよび複数選択オプションセットのラベル名は、レポート用に別のフィールドとして追加する必要があります。\n*ユーザーは、ケースが別のユーザーに割り当てられると、すべてのアクティビティも割り当てられることに不満を持っています。\n*Microsoft Dataverse のデータに基づく一部の Power BI レポートは、ほぼリアルタイムで更新される必要があります。\nこれらの要件を満たす設計ソリューションを推奨する必要があります。",
+      "explanation": "※問１の問題はなかったため、想定される回答を勝手に記載。Dataverse コネクタを使用すると、Power BI 側でデータを読み込む際に、値（整数）に対応するラベル名が自動的に取得される。\n※リアルタイムで反映する「DirectQuery」はDataverse コネクタに「DirectQuery」モードがある。",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "1",
+          "slot2": "1",
+          "slot3": "1"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "*ユーザーは、ケースが別のユーザーに割り当てられると、すべてのアクティビティも割り当てられることに不満を持っています。",
+          "options": [
+            {
+              "id": "1",
+              "text": "Power BI Connector (Dataverse) の利用、または Azure Synapse Link for Dataverse を検討します。"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "*Microsoft Dataverse のデータに基づく一部の Power BI レポートは、ほぼリアルタイムで更新される必要があります。",
+          "options": [
+            {
+              "id": "1",
+              "text": "アクティビティ エンティティの関係ごとに、カスケード ルールを [構成可能なカスケード] に設定し、[割り当て] を [カスケードなし] に設定します。"
+            },
+            {
+              "id": "2",
+              "text": "実装するのではなく、ケースを割り当てるためのベスト プラクティスについてユーザーをトレーニングします。"
+            },
+            {
+              "id": "3",
+              "text": "ユーザー エンティティ/テーブルとアクティビティ テーブルの間に 1:N の関係を作成します。"
+            }
+          ]
+        },
+        {
+          "id": "slot3",
+          "label": "これらの要件を満たす設計ソリューションを推奨する必要があります。",
+          "options": [
+            {
+              "id": "1",
+              "text": "Dataverse コネクタを使用して Power BI レポートを作成します。"
+            },
+            {
+              "id": "2",
+              "text": "データ エクスポート サービスを実装します。 Azure SQL Database を指す Power BI レポートを作成します。"
+            },
+            {
+              "id": "3",
+              "text": "Dataverse コネクタに基づいて Power BI データフローを作成します。 Power BI レポートがデータフローを指すようにします。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q066",
+      "type": "dropdown",
+      "text": "Power Platform ソリューションのパフォーマンステストを実施しています。\nこのソリューションは、Power Automateクラウドフローを使用して、さまざまな条件に基づいて10の異なるテーブル間でデータのクエリと同期を行います。\n次の観察を行います。\n* テスト中のインターネット速度は高速 (500 Mbps) です。\n* 50 個の Dynamics リアルタイム ワークフローが使用されています。\n* 63 個の Dynamics 非同期ワークフローが使用されています。\n* 76 個の Power Automate クラウド フローが使用されています。\n次のパフォーマンスの問題を特定します。\nパフォーマンスの問題を解決するための手順を推奨する必要があります。\n何をお勧めしますか？",
+      "explanation": "非同期であるバックグラウンドプロセスが遅いのはたいてい、データ取得の非効率さにあるらしい。",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "1",
+          "slot2": "3"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "データ変更の保存が遅い。",
+          "options": [
+            {
+              "id": "1",
+              "text": "ほぼリアルタイムのワークフローの使用量を削減する"
+            },
+            {
+              "id": "2",
+              "text": "すべての Dynamics 365 ワークフローを Power Automate クラウド フローに変換します。"
+            },
+            {
+              "id": "3",
+              "text": "クラウド フロー クエリと条件付きロジックのフィルターを確認して修正します。"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "バックグラウンドプロセスは完了するまでに数時間かかることがよくあります。",
+          "options": [
+            {
+              "id": "1",
+              "text": "ほぼリアルタイムのワークフローの使用を削減します。"
+            },
+            {
+              "id": "2",
+              "text": "すべての Dynamics 365 ワークフローを Power Automate クラウド フローに変換します。"
+            },
+            {
+              "id": "3",
+              "text": "クラウド フロー クエリと条件付きロジックのフィルターを確認して修正します。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q067",
+      "type": "single-choice",
+      "text": "組織は、営業チームに完全な営業プロセスを提供するソリューションの実装を計画しています。\n組織には、物理的なバーコード スキャナーはありません。\n組織のビジネス要件を満たすには、提案するソリューションに次の機能を含める必要があります。\n組織がビジネス要件を達成するのに役立つソリューションを推奨する必要があります。\n何をお勧めしますか？",
+      "explanation": "正解: A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dynamics 365 モバイル アプリと Power Apps キャンバス アプリ"
+        },
+        {
+          "id": "B",
+          "text": "Dynamics 365 for Phones のみ"
+        },
+        {
+          "id": "C",
+          "text": "Dynamics 365 Customer Service および Dynamics 365 Sales"
+        },
+        {
+          "id": "D",
+          "text": "ユニファイド サービス デスク"
+        }
+      ],
+      "correctAnswer": {
+        "type": "single",
+        "optionId": "A"
+      }
+    },
+    {
+      "id": "q068",
+      "type": "multiple-choice",
+      "text": "会社は、マーケティングイベントをソーシャルメディアに投稿するPower Automateフローを作成したいと考えています。会社は、投稿が個人を特定できる情報(PII)データの処理に関する規制要件に準拠していることを確認する必要があります。\n会社は、許可されていないソーシャルメディアプラットフォームにイベントを投稿しません。\n要件が満たされていることを確認する必要があります。\nどの2つのアクションを実行する必要がありますか？",
+      "explanation": "正解: D,E",
+      "options": [
+        {
+          "id": "A",
+          "text": "非ビジネスデータグループカテゴリの一部になるように、関連するコネクタを構成します。"
+        },
+        {
+          "id": "B",
+          "text": "データのエクスポートを防止するセキュリティ ロールを作成します。"
+        },
+        {
+          "id": "C",
+          "text": "作成者の Azure Active Directory (AAD) セキュリティ ロールを環境に構成します。"
+        },
+        {
+          "id": "D",
+          "text": "データ損失防止 (DLP) ポリシーを作成します。"
+        },
+        {
+          "id": "E",
+          "text": "ブロックされたデータ グループカテゴリの一部になるように、関連するコネクタを構成します。"
+        }
+      ],
+      "correctAnswer": {
+        "type": "multiple",
+        "optionIds": [
+          "D",
+          "E"
+        ]
+      },
+      "requiredSelections": 2
+    },
+    {
+      "id": "q069",
+      "type": "dropdown",
+      "text": "会社には、サードパーティのマーケティング アプリケーションに接続する Power Platform環境があります。同社は、Power Platform リード テーブルのデータがマーケティングアプリケーションのデータと一致しないと報告しています。\n問題は次のとおりです。\n▶観察された違いの原因となっているプロセスを特定する必要があります。\n観察された違いを引き起こしていると考えられるプロセスはどれですか?",
+      "explanation": "ルックアップは親レコードがないと失敗する。",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "2",
+          "slot2": "4"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "操作のタイムアウトにより、移行プロセスが失敗します。",
+          "options": [
+            {
+              "id": "1",
+              "text": "マルチスレッドやバッチ サイズの設定を増やします。"
+            },
+            {
+              "id": "2",
+              "text": "マルチスレッドやバッチ サイズの設定を減らします。"
+            },
+            {
+              "id": "3",
+              "text": "すべてのテーブルに同時にデータをロードしていることを確認してください。"
+            },
+            {
+              "id": "4",
+              "text": "データを特定の順序でテーブルにロードしていることを確認してください。"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "ルックアップ列を含むレコードはロードに失敗することがよくあります。",
+          "options": [
+            {
+              "id": "1",
+              "text": "マルチスレッドやバッチ サイズの設定を増やします。"
+            },
+            {
+              "id": "2",
+              "text": "マルチスレッドやバッチ サイズの設定を減らします。"
+            },
+            {
+              "id": "3",
+              "text": "すべてのテーブルに同時にデータをロードしていることを確認してください。"
+            },
+            {
+              "id": "4",
+              "text": "特定の順序でテーブルにデータをロードしていることを確認してください。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q070",
+      "type": "single-choice",
+      "text": "Microsoft Power Platformソリューションのフォームを設計しています。\n各人は、自分の部門に必要な列のみを表示する必要があります。\nフォームが正しく開き、必要なフィールドのみが表示され、データをすばやく入力できるようにする必要があります。フォームをどのように設計する必要がありますか?\n<table class=\"q-table\"><thead><tr><th>部署</th><th>要件</th></tr></thead><tbody><tr><td>インサイドセールス</td><td>ブラウザベースのアプリのみを使用してください。\n連絡先名、電話番号、製品、注文日、未払い総額のフィールドが含まれます。</td></tr><tr><td>フルフィルメント</td><td>モバイルまたはブラウザベースのアプリを使用します。\n連絡先名、製品、注文日のフィールドが含まれます。</td></tr><tr><td>フィールドセールス</td><td>モバイルアプリのみを使用してください。\n連絡先の名前、住所、電話番号、製品のフィールドを含めます。</td></tr></tbody></table>",
+      "explanation": "Cは”表示は消せる”が前列を載せるので動作が重くなる。「すばやく入力」という要件に反する。",
+      "options": [
+        {
+          "id": "A",
+          "text": "部門ごとに 1つのフォームを作成します。部門ごとにフォームに必要な列のみを追加します。\n各フォームに適切なセキュリティロールを割り当てます。"
+        },
+        {
+          "id": "B",
+          "text": "全部門共通のフォームを作成します。すべての列を追加します。\n部門ごとに不要な列に列レベルCのセキュリティを追加する"
+        },
+        {
+          "id": "C",
+          "text": "部門ごとに 1つのフォームを作成します。すべての部門に必要なすべての列を追加します。\nビジネスルールを使用して列を非表示にします。"
+        },
+        {
+          "id": "D",
+          "text": "既存のフォームに新しい列を追加します。\nそのフォームのすべての部門のセキュリティロールを付与します。"
+        }
+      ],
+      "correctAnswer": {
+        "type": "single",
+        "optionId": "A"
+      }
+    },
+    {
+      "id": "q071",
+      "type": "dropdown",
+      "text": "あなたは顧客と協力して、実稼働環境へのゴーライブ展開を計画しています。\nソリューションには、いくつかのアプリと環境変数が含まれています。\nスーパーユーザーチームは、特定の環境 Azure AD セキュリティグループを使用して保護された運用環境を管理します。\n次の問題が確認されており、この問題を解決する必要があります。\nあなたは何をするべきか？",
+      "explanation": "Azure AD セキュリティグループは、環境に入れるかどうかを制御するためのもので、アプリの利用を制御するものではない。アプリが利用できないのは、ロール不足や共有不足がある。",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "1",
+          "slot2": "1",
+          "slot3": "3"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "スーパーユーザー チームは環境変数を設定できません。",
+          "options": [
+            {
+              "id": "1",
+              "text": "システム カスタマイザーの役割を割り当てます。"
+            },
+            {
+              "id": "2",
+              "text": "基本ユーザーの役割を割り当てます。"
+            },
+            {
+              "id": "3",
+              "text": "サービス閲覧者の役割を割り当てます。"
+            },
+            {
+              "id": "4",
+              "text": "Office コラボレーターの役割を割り当てます。"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "ユーザーはモデル駆動型アプリにアクセスできません。",
+          "options": [
+            {
+              "id": "1",
+              "text": "基本ユーザーの役割を割り当てます。"
+            },
+            {
+              "id": "2",
+              "text": "サービス閲覧者の役割を割り当てます。"
+            },
+            {
+              "id": "3",
+              "text": "Office コラボレーターの役割を割り当てます。"
+            },
+            {
+              "id": "4",
+              "text": "Azure AD セキュリティ グループを追加します。"
+            }
+          ]
+        },
+        {
+          "id": "slot3",
+          "label": "ユーザーはキャンバス アプリにアクセスできません。",
+          "options": [
+            {
+              "id": "1",
+              "text": "システム カスタマイザーの役割を割り当てます。"
+            },
+            {
+              "id": "2",
+              "text": "サービス閲覧者の役割を割り当てます。"
+            },
+            {
+              "id": "3",
+              "text": "ユーザーをスーパーユーザー チームに追加します。"
+            },
+            {
+              "id": "4",
+              "text": "ユーザーを Azure AD セキュリティ グループに追加します。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q072",
+      "type": "multiple-choice",
+      "text": "ある企業は、手動プロセスを使用して顧客とのやり取りを追跡しています。\n同社は、Power Platform を使用して生産性を向上させたいと考えています。\n会社には次の要件があります。\n*ケースを送信および確認できるオンライン ポータルを顧客に提供します。\n*顧客がいつでも顧客サービス担当者とオンラインでチャットできるようにします。\n*スキルと可用性に基づいて、カスタマー サービス担当者にチャットを転送します。\n会社に解決策を提案する必要があります。\nどの 3つのコンポーネントをお勧めしますか?",
+      "explanation": "顧客サービス用オムニチャネル＿複数の顧客接点（チャネル）を１つの統合基盤で管理し、最適な担当者にリアルタイムで割り当てる仕組み。",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dynamics 365 Virtual Agents チャットボット"
+        },
+        {
+          "id": "B",
+          "text": "カスタマー セルフサービス ポータル"
+        },
+        {
+          "id": "C",
+          "text": "Dynamics 365 フィールド サービス"
+        },
+        {
+          "id": "D",
+          "text": "ビジネス プロセス フロー"
+        },
+        {
+          "id": "E",
+          "text": "顧客サービス用オムニチャネル"
+        }
+      ],
+      "correctAnswer": {
+        "type": "multiple",
+        "optionIds": [
+          "A",
+          "B",
+          "E"
+        ]
+      },
+      "requiredSelections": 3
+    },
+    {
+      "id": "q073",
+      "type": "dropdown",
+      "text": "あなたは Microsoft Power Platform アーキテクトです。\nいくつかのプロジェクト リスクを特定しました。\n顧客に固有の潜在的なリスクを分類する必要があります。\nリスクをどのように分類する必要がありますか?",
+      "explanation": "正解: ④、②、①",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "4",
+          "slot2": "2",
+          "slot3": "1"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "このプロジェクトでは、ビジネス機密データを保存するカスタム構築されたオンプレミス システムへの統合が必要です。",
+          "options": [
+            {
+              "id": "1",
+              "text": "資源リスク"
+            },
+            {
+              "id": "2",
+              "text": "事業リスク"
+            },
+            {
+              "id": "3",
+              "text": "外部リスク"
+            },
+            {
+              "id": "4",
+              "text": "セキュリティリスク"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "この組織は現在、市場投入戦略の大幅な調整を行っています。",
+          "options": [
+            {
+              "id": "1",
+              "text": "資源リスク"
+            },
+            {
+              "id": "2",
+              "text": "事業リスク"
+            },
+            {
+              "id": "3",
+              "text": "外部リスク"
+            },
+            {
+              "id": "4",
+              "text": "セキュリティリスク"
+            }
+          ]
+        },
+        {
+          "id": "slot3",
+          "label": "プロジェクト要件に関連して、顧客の予算は限られています。",
+          "options": [
+            {
+              "id": "1",
+              "text": "資源リスク"
+            },
+            {
+              "id": "2",
+              "text": "事業リスク"
+            },
+            {
+              "id": "3",
+              "text": "外部リスク"
+            },
+            {
+              "id": "4",
+              "text": "セキュリティリスク"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q074",
+      "type": "multiple-choice",
+      "text": "あなたは、複数のアプリケーションを含むPower Platformソリューションを設計しています。\n次の要件があります：\n* サポート担当者がケースを管理できること\n* プロジェクト マネージャーが自分のプロジェクトを確認および更新できること\n* 在庫管理者が倉庫を管理できること\n* 新しいサイト訪問者が自分で登録できること（セルフ登録）\n* 社員が勤務時間の記録を追跡できること\n以下のうち、ロールベースのアプリケーション（role-based applications）を実装することで満たすことができる要件はどれですか？\n該当するものを3つ選択してください。",
+      "explanation": "正解: B,C,D",
+      "options": [
+        {
+          "id": "A",
+          "text": "新しいサイト訪問者のセルフ登録"
+        },
+        {
+          "id": "B",
+          "text": "プロジェクト マネージャーによるプロジェクトの確認と更新"
+        },
+        {
+          "id": "C",
+          "text": "在庫管理者による倉庫管理"
+        },
+        {
+          "id": "D",
+          "text": "サポート担当者によるケース管理"
+        },
+        {
+          "id": "E",
+          "text": "社員による勤務時間の記録"
+        }
+      ],
+      "correctAnswer": {
+        "type": "multiple",
+        "optionIds": [
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "requiredSelections": 3
+    },
+    {
+      "id": "q075",
+      "type": "dropdown",
+      "text": "品質検査オーダー データ モデルを設計する必要があります。\n何をお勧めしますか？",
+      "explanation": "１つ目の問いに関して\n外部システムがありDataverseに保持しない場合は、①仮想テーブル\nField Serviceで機器マスタを管理している前提があるなら、③Field Service",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "3",
+          "slot2": "1"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "検査オーダーで使用するシリアル番号およびその他のマシン属性を取得します。",
+          "options": [
+            {
+              "id": "1",
+              "text": "仮想テーブルを使用します。"
+            },
+            {
+              "id": "2",
+              "text": "カスタムテーブルにインポートします。"
+            },
+            {
+              "id": "3",
+              "text": "Dynamics 365 Field Service へのルックアップを作成します。"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "検査オーダーと検査評価の関係を設定します。",
+          "options": [
+            {
+              "id": "1",
+              "text": "1 対多の関係を作成し、動作をペアレントに設定します。"
+            },
+            {
+              "id": "2",
+              "text": "多対多の関係を作成し、動作をペアレントに設定します。"
+            },
+            {
+              "id": "3",
+              "text": "1 対多の関係を作成し、動作をカスケードなしに設定します。"
+            },
+            {
+              "id": "4",
+              "text": "多対多の関係を作成し、動作をカスケードなしに設定します。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q076",
+      "type": "multiple-choice",
+      "text": "あなたは全国的な自動車修理会社向けのソリューションを設計しています。\n次の要件があります。\n※お客様は自然言語表現を使用して車両の問題を検索する必要があります。\n※必要に応じてお客様ご相談窓口までご連絡ください。\n解決策を提案する必要があります。\nどの 2つの機能を含めるべきですか?",
+      "explanation": "Dynamics 365 Customer Insights＿顧客データ分析",
+      "options": [
+        {
+          "id": "A",
+          "text": "Power Virtual Agent（Copilot Studio）"
+        },
+        {
+          "id": "B",
+          "text": "Business Process flow"
+        },
+        {
+          "id": "C",
+          "text": "Power Apps ポータル"
+        },
+        {
+          "id": "D",
+          "text": "Dynamics 365 Customer Insights"
+        }
+      ],
+      "correctAnswer": {
+        "type": "multiple",
+        "optionIds": [
+          "A",
+          "C"
+        ]
+      },
+      "requiredSelections": 2
+    },
+    {
+      "id": "q077",
+      "type": "multiple-choice",
+      "text": "ある企業は、サードパーティのクラウドベースのアプリを使用して、リアルタイムのビジネス上の意思決定を行っています。アプリには RESTful API があります。\nサードパーティ アプリとやり取りするPower Platformソリューションを設計する必要があります。\nPower Platformソリューションで行った変更は、クラウド アプリに反映する必要があります。\nPower Platform ソリューションをクラウドアプリと統合するには、テクノロジを推奨する必要があります。\nどの 2つのテクノロジを推奨する必要がありますか?",
+      "explanation": "カスタムプラグイン＿Dataverse内でデータの作成・更新・削除などが発生した際に、サーバー側でリアルタイムに実行されるカスタム処理のこと。",
+      "options": [
+        {
+          "id": "A",
+          "text": "クラウドアプリへのカスタムコネクタを使用してスケジュールされたPower Automateクラウドフロー"
+        },
+        {
+          "id": "B",
+          "text": "Power Virtual Agents"
+        },
+        {
+          "id": "C",
+          "text": "Microsoft Dataverse に登録されたカスタム プラグオン"
+        },
+        {
+          "id": "D",
+          "text": "モデル駆動型アプリ"
+        }
+      ],
+      "correctAnswer": {
+        "type": "multiple",
+        "optionIds": [
+          "A",
+          "C"
+        ]
+      },
+      "requiredSelections": 2
+    },
+    {
+      "id": "q078",
+      "type": "dropdown",
+      "text": "あなたはソリューション設計を評価しています。\n次のシナリオをテストする必要があります。\n* アプリを使用するユーザーを模倣します。\n* アプリが顧客指定の基準を満たしていることの正式な承認を取得します。\n* アプリが予想されるピーク負荷を管理できることの確認。\nどの種類のテストを使用する必要がありますか?",
+      "explanation": "正解: ①、②、③",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "1",
+          "slot2": "2",
+          "slot3": "3"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "アプリを使用するユーザーを模倣します。",
+          "options": [
+            {
+              "id": "1",
+              "text": "UI試験"
+            },
+            {
+              "id": "2",
+              "text": "受け入れ試験"
+            },
+            {
+              "id": "3",
+              "text": "性能試験"
+            },
+            {
+              "id": "4",
+              "text": "負荷テスト"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "アプリが顧客指定の基準を満たしていることの正式な承認を取得します。",
+          "options": [
+            {
+              "id": "1",
+              "text": "移行テスト"
+            },
+            {
+              "id": "2",
+              "text": "受け入れ試験"
+            },
+            {
+              "id": "3",
+              "text": "性能試験"
+            },
+            {
+              "id": "4",
+              "text": "UI試験"
+            }
+          ]
+        },
+        {
+          "id": "slot3",
+          "label": "アプリが予想されるピーク負荷を管理できることの確認。",
+          "options": [
+            {
+              "id": "1",
+              "text": "単体テスト"
+            },
+            {
+              "id": "2",
+              "text": "受け入れ試験"
+            },
+            {
+              "id": "3",
+              "text": "性能試験"
+            },
+            {
+              "id": "4",
+              "text": "結合テスト"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q079",
+      "type": "single-choice",
+      "text": "会社は、Microsoft Excelファイルに連絡先のリストを持っています。\nこの会社は、連絡先情報をPower Platformソリューションにロードしたいと考えています。\nデータ読み込みソリューションを推奨する必要があります。\n何をお勧めしますか？",
+      "explanation": "正解: C",
+      "options": [
+        {
+          "id": "A",
+          "text": "連絡先を静的ワークシートに追加します"
+        },
+        {
+          "id": "B",
+          "text": "Excel テンプレート機能を使用します"
+        },
+        {
+          "id": "C",
+          "text": "Excel からのインポート機能を使用します"
+        }
+      ],
+      "correctAnswer": {
+        "type": "single",
+        "optionId": "C"
+      }
+    },
+    {
+      "id": "q080",
+      "type": "dropdown",
+      "text": "ある企業が、既存のデータ管理システムに関する次の問題を報告しています。\n*ユーザーは、わかりやすいIDまたはレコードIDを使用して特定のレコードを検索することはできません。\n*ユーザーは、必須ではないフィールドにデータを入力することがあります。\n*レコードフォームにはすべてのフィールドが表示されます。フィールドの多くは使用されません。\n*Power Platformソリューションがデータ品質を適切に維持できることを確認する必要があります。\nどのコンポーネントを使用する必要がありますか?",
+      "explanation": "正解: ②、①",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "2",
+          "slot2": "1"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "ユーザーが一意の識別子を使用して特定のレコードを検索できるようにします。",
+          "options": [
+            {
+              "id": "1",
+              "text": "ビジネスルール"
+            },
+            {
+              "id": "2",
+              "text": "列の自動番号付け"
+            },
+            {
+              "id": "3",
+              "text": "ビジネスプロセスフロー"
+            },
+            {
+              "id": "4",
+              "text": "重複検出ルール"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "入力の必要のないデータへのデータ入力を禁止する必要があります。",
+          "options": [
+            {
+              "id": "1",
+              "text": "ビジネスルール"
+            },
+            {
+              "id": "2",
+              "text": "リアルタイムのワークフロー"
+            },
+            {
+              "id": "3",
+              "text": "ビジネスプロセスフロー"
+            },
+            {
+              "id": "4",
+              "text": "重複検出ルール"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q081",
+      "type": "dropdown",
+      "text": "顧客向けの Power Platformソリューションを設計します。\nこのソリューションでは、Microsoft Dataverse をデータストアとして使用します。\nソリューションの稼働開始プロセスを管理しています。\nお客様から次のパフォーマンスの問題が報告されています。\n*フォームの読み込み時間は、テスト時よりも大幅に遅くなります。\n*全体的なシステム パフォーマンスは、テスト時よりも大幅に遅くなりました。\nシステム パフォーマンスのトラブルシューティング方法を推奨する必要があります。\nどのアクションをお勧めしますか?\nビジネス ユニットに変更します。",
+      "explanation": "Dataverse では、1:N リレーションの カスケード設定（削除・共有・割り当てなど） が過剰だと、更新時に大量の関連レコードへ処理が発生するため、トランザクションが重くなり、システム全体のパフォーマンスが低下する。",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "3",
+          "slot2": "2"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "フォームの読み込み時間が遅い",
+          "options": [
+            {
+              "id": "1",
+              "text": "フォーム イベントに関連付けられたワークフローを確認します。"
+            },
+            {
+              "id": "2",
+              "text": "フォーム上のフィールドの QuickFind プロパティを確認します。"
+            },
+            {
+              "id": "3",
+              "text": "フォーム上のフィールドを確認します。"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "全体的にシステムパフォーマンスが遅い",
+          "options": [
+            {
+              "id": "1",
+              "text": "全てのセキュリティロールをグローバル読み取り権限からビジネスユニット権限に変更します。"
+            },
+            {
+              "id": "2",
+              "text": "1対多の関係を確認して、カスケード設定が必要かどうかを確認します。"
+            },
+            {
+              "id": "3",
+              "text": "パフォーマンスを向上させるために、セキュリティ ロールをグローバル読み取りアクセスから"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q082",
+      "type": "dropdown",
+      "text": "ある企業は、複数のDataverse環境の展開を計画しています。\n稼働開始プロセスをサポートしています。同社は、次のアクセスの問題を報告しています。\n*ユーザーはアカウントレコードにアクセスできますが、テーブルの列を読み取ることはできません。\n*ライセンスを取得したユーザーは、リードを開くときに権限が不十分であるというエラーを受け取ります。\n*ライセンスを取得したユーザーは、セキュリティの割り当てが可能なユーザーの一覧には表示されません。\n問題を解決する必要があります。あなたは何をするべきか？",
+      "explanation": "正解: ③、①、②",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "3",
+          "slot2": "1",
+          "slot3": "2"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "ユーザーは取引先レコードにアクセスできますが、テーブル内の列を読み取ることはできません。",
+          "options": [
+            {
+              "id": "1",
+              "text": "セキュリティロール"
+            },
+            {
+              "id": "2",
+              "text": "セキュリティグループ"
+            },
+            {
+              "id": "3",
+              "text": "フィールドセキュリティプロファイル"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "ライセンスを取得したユーザーがリードを開くときに、権限が不十分であるというエラーが表示されます。",
+          "options": [
+            {
+              "id": "1",
+              "text": "セキュリティロール"
+            },
+            {
+              "id": "2",
+              "text": "セキュリティグループ"
+            },
+            {
+              "id": "3",
+              "text": "フィールドセキュリティプロファイル"
+            }
+          ]
+        },
+        {
+          "id": "slot3",
+          "label": "ライセンスを取得したユーザーは、セキュリティの割り当てに使用できるユーザーのリストに表示されません。",
+          "options": [
+            {
+              "id": "1",
+              "text": "セキュリティロール"
+            },
+            {
+              "id": "2",
+              "text": "セキュリティグループ"
+            },
+            {
+              "id": "3",
+              "text": "フィールドセキュリティプロファイル"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q083",
+      "type": "single-choice",
+      "text": "あなたは会社の Power Apps アーキテクトです。\nIT 管理者は、テストの準備が整った Power Apps アプリを設計します。\n同社はアプリケーション ライフサイクル管理 (ALM)を使用しています。\n各バージョンとソリューション コンポーネントは、テスト中に追跡する必要があります。\nユーザー受け入れテスト環境用のソリューションを展開するための戦略を推奨する必要があります。\n何をお勧めしますか？",
+      "explanation": "Package Deployer\n環境へソリューションをデプロイする正式ツール。ALMプロセスで使用可能。\nソリューションパッケージャー\nソリューションを分解・再構築する開発用ツール。ソース管理用であり、ソリューションを展開するツールではない。",
+      "options": [
+        {
+          "id": "A",
+          "text": "Package Deployer を使用してマネージド ソリューションを展開します。"
+        },
+        {
+          "id": "B",
+          "text": "Package Deployer を使用して、アンマネージド ソリューションを展開します。"
+        },
+        {
+          "id": "C",
+          "text": "ソリューション パッケージャーを使用してマネージドソリューションを展開します。"
+        },
+        {
+          "id": "D",
+          "text": "ソリューション パッケージャーを使用して、アンマネージドソリューションを展開します。"
+        }
+      ],
+      "correctAnswer": {
+        "type": "single",
+        "optionId": "A"
+      }
+    },
+    {
+      "id": "q084",
+      "type": "dropdown",
+      "text": "Mobile Offline 機能を含むモデル駆動型アプリの最近の Go-Live をサポートしています。\nユーザーから次の問題が報告されています。\n*アプリの初期メタデータをダウンロードするプロセスは、完了するまでに数時間かかります。\n*アプリがオフラインの場合、一部のアカウント ビューは使用できません。\n*ユーザーのセキュリティ権限に対する変更は、モバイル アプリには反映されません。\n*アプリがオフラインの場合、連絡先データは利用できません。\nモバイル アプリのパフォーマンスの問題を解決する必要があります。\n何を見直す必要がありますか？",
+      "explanation": "正解: ③、①、③、②",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "3",
+          "slot2": "1",
+          "slot3": "3",
+          "slot4": "2"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "アプリの初期メタデータをダウンロードするプロセスが完了するまでに数時間かかります。",
+          "options": [
+            {
+              "id": "1",
+              "text": "モバイルアプリを同期します。"
+            },
+            {
+              "id": "2",
+              "text": "組織データフィルターを削除します。"
+            },
+            {
+              "id": "3",
+              "text": "プロファイルフィルターに含まれるレコードを減らします。"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "ユーザーのセキュリティ権限に対する変更は、モバイル アプリには反映されません。",
+          "options": [
+            {
+              "id": "1",
+              "text": "モバイルアプリを同期します。"
+            },
+            {
+              "id": "2",
+              "text": "プロファイルフィルターに含まれるレコードを減らします。"
+            },
+            {
+              "id": "3",
+              "text": "モバイル プロファイルに含まれていないテーブルへの参照を削除します。"
+            }
+          ]
+        },
+        {
+          "id": "slot3",
+          "label": "アプリがオフラインの場合、一部のアカウント ビューは利用できません。",
+          "options": [
+            {
+              "id": "1",
+              "text": "モバイルアプリを同期します。"
+            },
+            {
+              "id": "2",
+              "text": "プロファイルフィルターに含まれるレコードを減らします。"
+            },
+            {
+              "id": "3",
+              "text": "モバイル プロファイルに含まれていないテーブルへの参照を削除します。"
+            }
+          ]
+        },
+        {
+          "id": "slot4",
+          "label": "アプリがオフラインの場合、連絡先データは利用できません。",
+          "options": [
+            {
+              "id": "1",
+              "text": "プロファイルフィルターに含まれるレコードを減らします。"
+            },
+            {
+              "id": "2",
+              "text": "連絡先情報を含むようにモバイル プロフィールを更新します。"
+            },
+            {
+              "id": "3",
+              "text": "モバイル プロファイルに含まれていないテーブルへの参照を削除します。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q085",
+      "type": "single-choice",
+      "text": "あなたは、会社が見込み客を管理するのに役立つPower Platformソリューションを設計しています。\nこのソリューションには次の要件があります。\n*従業員がアプリへのアクセスに使用するデバイスに関係なく、ユーザーが定義済みの販売プロセスに従うようにします。\n*組織が定義したベスト プラクティスを使用して、販売イベントに対応します。\nアプリのコンポーネントを推奨する必要があります。\n何をお勧めしますか？（たぶん2つ選択する）",
+      "explanation": "プレイブック＿Dynamics365/Dataverseにある「プレイブック」機能は、特定のイベントが発生した際に、組織が推奨する一連のタスクや活動（ベストプラクティス）を自動的に生成。",
+      "options": [
+        {
+          "id": "A",
+          "text": "Power Automate クラウド フロー"
+        },
+        {
+          "id": "B",
+          "text": "ビジネスプロセスフロー"
+        },
+        {
+          "id": "C",
+          "text": "Power Automate デスクトップ フロー"
+        },
+        {
+          "id": "D",
+          "text": "プレイブック"
+        }
+      ],
+      "correctAnswer": {
+        "type": "single",
+        "optionId": "1"
+      }
+    },
+    {
+      "id": "q086",
+      "type": "dropdown",
+      "text": "ある会社は、医療専門家向けの継続教育コースを提供しています。\nコースが提供されるたびに、会社はセッションが行われたことを Excel ブックで追跡します。\n会社は教育者がコースを教えるために必要な資格のリストを維持しています。\n教育者の資格は、話せる言語から高度な学位にまで及びます。\nこの会社では、次のカスタムテーブルリレーションシップを定義する必要があります。\n*教育者を専門資格のリストと関連付けます。\n*開催される各コースに主任教育者を割り当てます。\n*開催されるすべてのコースに関する情報を収集します。\n要件に最適な関係のタイプを決定する必要があります。\nどのタイプのテーブル リレーションシップを使用する必要がありますか?",
+      "explanation": "システム生成テーブル＿関連付けるなど、単純な紐づけ（N:N）\nカスタムテーブル＿関係自体に追加属性が必要な場合など、特定のデータとの紐づけ（N:N）",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "1",
+          "slot2": "3",
+          "slot3": "3"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "教育者はその資格と関連付けられなければなりません。",
+          "options": [
+            {
+              "id": "1",
+              "text": "システム生成テーブルを使用する多対多の関係"
+            },
+            {
+              "id": "2",
+              "text": "カスタムテーブルを使用する多対多の関係"
+            },
+            {
+              "id": "3",
+              "text": "1対多の関係"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "コースが開催されるときは、主な教育者が割り当てられなければなりません。",
+          "options": [
+            {
+              "id": "1",
+              "text": "システム生成テーブルを使用する多対多の関係"
+            },
+            {
+              "id": "2",
+              "text": "カスタムテーブルを使用する多対多の関係"
+            },
+            {
+              "id": "3",
+              "text": "1対多の関係"
+            }
+          ]
+        },
+        {
+          "id": "slot3",
+          "label": "講座が開催されると、企業はその講座に関する情報を収集する必要があります。",
+          "options": [
+            {
+              "id": "1",
+              "text": "システム生成テーブルを使用する多対多の関係"
+            },
+            {
+              "id": "2",
+              "text": "カスタムテーブルを使用する多対多の関係"
+            },
+            {
+              "id": "3",
+              "text": "1対多の関係"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q087",
+      "type": "dropdown",
+      "text": "あなたは、Power Platform ソリューションのデータ モデルを設計しています。\nデータ モデルは次の要件を満たしている必要があります。\nデータ モデルのカスケード戦略を推奨する必要があります。\nどのカスケード戦略をお勧めしますか?",
+      "explanation": "すべてをカスケード＿状態や所有者を問わず全部変更（すべてを引き継ぐとき）\nカスケードアクティブ＿進行中（Active）のものだけ変更（完了したものは過去の記録として残す場合）\nユーザー所有のカスケード＿親レコードの所有者と同じユーザーが所有している子レコードのみに適用（電話・メールなどの活動の履歴管理）\nカスケードなし＿何も波及させない（親子の変更を子に反映させたくない場合）",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "1",
+          "slot2": "3"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "アカウントが新しい営業担当者に割り当てられると、そのアカウントに関連付けられたすべての営業案件が新しい営業担当者に割り当てられる必要があります。",
+          "options": [
+            {
+              "id": "1",
+              "text": "すべてをカスケード"
+            },
+            {
+              "id": "2",
+              "text": "カスケードアクティブ"
+            },
+            {
+              "id": "3",
+              "text": "ユーザー所有のカスケード"
+            },
+            {
+              "id": "4",
+              "text": "カスケードなし"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "営業担当者が別の営業担当者に潜在顧客を割り当てる場合、その潜在顧客に関連するすべての電話活動を新しい営業担当者に割り当てる必要があります。",
+          "options": [
+            {
+              "id": "1",
+              "text": "すべてをカスケード"
+            },
+            {
+              "id": "2",
+              "text": "カスケードアクティブ"
+            },
+            {
+              "id": "3",
+              "text": "ユーザー所有のカスケード"
+            },
+            {
+              "id": "4",
+              "text": "カスケードなし"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q088",
+      "type": "dropdown",
+      "text": "次のプロセスを自動化するソリューションを設計しています。\n* APIが利用可能なシステムから Microsoft Dataverse にデータをインポートします。\n* APIを利用できないシステムから Microsoft Dataverse にデータをインポートします。\n*指定された順序で Microsoft Excel ファイルのDataverseフォーム内の連絡先を検証します。\n自動化メソッドを実装する必要があります。\nどのコンポーネントを使用する必要がありますか?",
+      "explanation": "正解: ③、②、①",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "3",
+          "slot2": "2",
+          "slot3": "1"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "API を持たないアプリケーションと対話します。",
+          "options": [
+            {
+              "id": "1",
+              "text": "クラウドフロー"
+            },
+            {
+              "id": "2",
+              "text": "ビジネスプロセスフロー"
+            },
+            {
+              "id": "3",
+              "text": "ロボットによるプロセスオートメーション"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "ビジネス ステップを特定の順序でユーザーにガイドします。",
+          "options": [
+            {
+              "id": "1",
+              "text": "クラウドフロー"
+            },
+            {
+              "id": "2",
+              "text": "ビジネスプロセスフロー"
+            },
+            {
+              "id": "3",
+              "text": "ロボットによるプロセスオートメーション"
+            }
+          ]
+        },
+        {
+          "id": "slot3",
+          "label": "API を備えたアプリケーションと対話します。",
+          "options": [
+            {
+              "id": "1",
+              "text": "クラウドフロー"
+            },
+            {
+              "id": "2",
+              "text": "ビジネスプロセスフロー"
+            },
+            {
+              "id": "3",
+              "text": "ロボットによるプロセスオートメーション"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q089",
+      "type": "multiple-choice",
+      "text": "Azure SQLデータベースとモデル駆動型アプリの間の統合を設計しています。\n次の要件があります。\n* データの更新を監査します。\n* ユーザー レベルでテーブルへのセキュリティ ロール アクセスを割り当てます。\n* 組織レベルでテーブルにセキュリティ ロール アクセスを割り当てます。\n* 変更追跡を有効にします。\n* データを追加・更新します。\n仮想テーブルを実装する必要があります。\n仮想テーブルを使用すると、どの 2つの要件を満たすことができますか?",
+      "explanation": "仮想テーブルは”外部データ”のため、変更追跡や更新の監査などはできない。\nまた、細かいレベルでのアクセス制御はできず、組織レベルのアクセス制御のみ適用可能。",
+      "options": [
+        {
+          "id": "A",
+          "text": "変更追跡を有効にします。"
+        },
+        {
+          "id": "B",
+          "text": "ユーザー レベルでテーブルにセキュリティ ロール アクセスを割り当てます。"
+        },
+        {
+          "id": "C",
+          "text": "データを追加および更新します。"
+        },
+        {
+          "id": "D",
+          "text": "組織レベルでテーブルにセキュリティ ロール アクセスを割り当てます。"
+        },
+        {
+          "id": "E",
+          "text": "データの更新を監査します。"
+        }
+      ],
+      "correctAnswer": {
+        "type": "multiple",
+        "optionIds": [
+          "C",
+          "D"
+        ]
+      },
+      "requiredSelections": 2
+    },
+    {
+      "id": "q090",
+      "type": "dropdown",
+      "text": "あなたは、オンラインショッピングアプリの要件を検討するPower Platformアーキテクトです。\nアプリの要件のタイプを特定する必要があります。\n要件をどのように分類すればよいでしょうか?",
+      "explanation": "機能要件＿「何ができるか。○○できる」＿業務処理・操作・ふるまい\n非機能要件＿「どうあるべきか。○○でなければならない」＿セキュリティ、品質、制約",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "1",
+          "slot2": "2"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "アプリは、顧客が注文したときに確認メールを自動的に送信する必要があります。",
+          "options": [
+            {
+              "id": "1",
+              "text": "機能的"
+            },
+            {
+              "id": "2",
+              "text": "非機能的"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "クレジット カード番号は暗号化する必要があります。",
+          "options": [
+            {
+              "id": "1",
+              "text": "機能的"
+            },
+            {
+              "id": "2",
+              "text": "非機能的"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q091",
+      "type": "multiple-choice",
+      "text": "あなたは Power Platform ソリューションを設計しています。\n品質保証テスト中に API の制限に達しました。\n問題を特定して解決する必要があります。\nどの 2つのアクションをお勧めしますか?",
+      "explanation": "Dataverse分析ダッシュボードで問題を特定し、Power Automate 分析ダッシュボードでどのフローが原因かを特定する。",
+      "options": [
+        {
+          "id": "A",
+          "text": "Microsoft Dataverse 容量アドオン サブスクリプションを割り当てます。"
+        },
+        {
+          "id": "B",
+          "text": "ソリューションのモデル駆動型アプリのレポートセクションにある、すぐに使えるユーザー概要レポートを使用します。"
+        },
+        {
+          "id": "C",
+          "text": "Power Platform 管理センターで [ホーム] タブの Dataverse分析ダッシュボードを確認します。"
+        },
+        {
+          "id": "D",
+          "text": "Power Platform 管理センターで、Power Apps分析ダッシュボードの「使用状況」セクションを確認します。"
+        },
+        {
+          "id": "E",
+          "text": "Power Platform 管理センターで、Power Automate 分析ダッシュボードの [実行]セクションを確認します。"
+        }
+      ],
+      "correctAnswer": {
+        "type": "multiple",
+        "optionIds": [
+          "C",
+          "E"
+        ]
+      },
+      "requiredSelections": 2
+    },
+    {
+      "id": "q092",
+      "type": "dropdown",
+      "text": "新しい顧客から、Dataverseを使用するPower Appsアプリのソリューションを設計するよう依頼されました。\nお客様は、サービスプロセスをシンプルに保ち、ライセンスと開発の両方の時間を節約したいと考えています。\nお客様にソリューションを提案する必要があります。\n何をお勧めしますか？",
+      "explanation": "正解: ②、③、①",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "2",
+          "slot2": "3",
+          "slot3": "1"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "Microsoft Outlook でアプリを表示します。",
+          "options": [
+            {
+              "id": "1",
+              "text": "キャンバスアプリ"
+            },
+            {
+              "id": "2",
+              "text": "モデル駆動型アプリ"
+            },
+            {
+              "id": "3",
+              "text": "Dynamics 365 カスタマー サービス"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "ユニバーサル リソース スケジューリングを使用します。",
+          "options": [
+            {
+              "id": "1",
+              "text": "キャンバスアプリ"
+            },
+            {
+              "id": "2",
+              "text": "モデル駆動型アプリ"
+            },
+            {
+              "id": "3",
+              "text": "Dynamics 365 カスタマー サービス"
+            }
+          ]
+        },
+        {
+          "id": "slot3",
+          "label": "携帯電話にメモを取り、GPS 座標を自動的に記録します。",
+          "options": [
+            {
+              "id": "1",
+              "text": "キャンバスアプリ"
+            },
+            {
+              "id": "2",
+              "text": "モデル駆動型アプリ"
+            },
+            {
+              "id": "3",
+              "text": "Dynamics 365 カスタマー サービス"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q093",
+      "type": "dropdown",
+      "text": "動物愛護団体は、地域内のオオカミの群れの動きを追跡したいと考えています。\nカメラセンサーの範囲内で動きが検出されると、特定の場所にあるカメラが画像をキャプチャします。\nスタッフは画像を手動で共有ドライブにアップロードし、画像を分析します。\n組織は、画像のキャプチャと分析を自動化したいと考えています。\n組織には次の要件があります。\n*キャプチャした画像を適切な場所に保存します。\n*画像認識プロセスを使用して、保存された画像を分析します。\n*リアルタイムのダッシュボードにデータを表示します。\n要件に適したテクノロジを推奨する必要があります。\n何をお勧めしますか？",
+      "explanation": "Power BIのダッシュボードがリアルタイムに強い",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "4",
+          "slot2": "2",
+          "slot3": "3"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "キャプチャした画像を適切な場所に保存します。",
+          "options": [
+            {
+              "id": "1",
+              "text": "ビジネスプロセスフロー"
+            },
+            {
+              "id": "2",
+              "text": "デスクトップフロー"
+            },
+            {
+              "id": "3",
+              "text": "インスタントクラウドフロー"
+            },
+            {
+              "id": "4",
+              "text": "自動化されたクラウドフロー"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "画像認識プロセスを使用して、保存された画像を分析します。",
+          "options": [
+            {
+              "id": "1",
+              "text": "インスタントクラウドフローとAl Builder"
+            },
+            {
+              "id": "2",
+              "text": "自動化されたクラウド フローと Al Builder"
+            },
+            {
+              "id": "3",
+              "text": "デスクトップフローとAl Builder"
+            }
+          ]
+        },
+        {
+          "id": "slot3",
+          "label": "リアルタイム ダッシュボードにデータを表示します。",
+          "options": [
+            {
+              "id": "1",
+              "text": "Dynamics 365 インタラクティブ エクスペリエンス ダッシュボード"
+            },
+            {
+              "id": "2",
+              "text": "ネイティブ グラフを備えたモデル駆動型アプリのダッシュボード"
+            },
+            {
+              "id": "3",
+              "text": "Power BI を使用したモデル駆動型アプリのダッシュボード"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q094",
+      "type": "single-choice",
+      "text": "会社には、Contact Us という名前のフォームを含む Webサイトがあります。\n完成したフォームのデータは、共有ドキュメントに保存されます。\nオフィス管理者は定期的にドキュメントをレビューします。\nオフィス管理者は、連絡先を作成したり、既存の連絡先を更新したりする別の従業員に新しい提出物を送信します。\nプロセスを自動化するソリューションを推奨する必要があります。\n何をお勧めしますか？",
+      "explanation": "Dynamics 365 カスタマー サービス\n・ケース管理(問合せ・苦情・サポート履歴の管理)\n・サービスレベル(SLA)管理\n・オムニチャネル対応(メール、チャット、電話、SNSなど)\n・AIによる自動応答と分析(Copilot支援)\nDynamics365 マーケティング（＝Customer Insights - Journeys）\n・メールマーケティング配信\n・顧客ジャーニー設計（シナリオ型自動配信）\n・セグメント作成（条件抽出）\n・フォーム作成・イベント管理\n・リードスコアリング\n・キャンペーン効果分析",
+      "options": [
+        {
+          "id": "A",
+          "text": "Excel Online コネクタ"
+        },
+        {
+          "id": "B",
+          "text": "Dynamics 365 Customer Insights"
+        },
+        {
+          "id": "C",
+          "text": "Dynamics 365 カスタマー サービス"
+        },
+        {
+          "id": "D",
+          "text": "Dynamics 365 マーケティング"
+        }
+      ],
+      "correctAnswer": {
+        "type": "single",
+        "optionId": "D"
+      }
+    },
+    {
+      "id": "q095",
+      "type": "multiple-choice",
+      "text": "ある企業では、営業リードを管理するために、Power Apps アプリとサードパーティ製アプリケーションという、連携されていない2つの別々のアプリを使用しています。\nクライアントの要件は次のとおりです。\n*すべてのリードを Power Apps アプリで管理すること。\n*サードパーティ製アプリでユーザーがリードを作成した場合、Power Apps アプリにもリードを作成すること。\n*サードパーティ製アプリでユーザーがリードを更新した場合、Power Apps アプリのリードも更新すること。\n*サードパーティ製アプリとは API を使用して接続すること。\nPower Apps アプリとサードパーティ製アプリケーションを統合するための戦略を提案する必要があります。\nどの3つの選択肢を使用できますか？",
+      "explanation": "正解: B、D、E",
+      "options": [
+        {
+          "id": "A",
+          "text": "２重書き込み"
+        },
+        {
+          "id": "B",
+          "text": "カスタムコネクタ"
+        },
+        {
+          "id": "C",
+          "text": "データフロー"
+        },
+        {
+          "id": "D",
+          "text": "Power Automate クラウドフロー"
+        },
+        {
+          "id": "E",
+          "text": "Dataverse コネクタ"
+        }
+      ],
+      "correctAnswer": {
+        "type": "multiple",
+        "optionIds": [
+          "B",
+          "D",
+          "E"
+        ]
+      },
+      "requiredSelections": 3
+    },
+    {
+      "id": "q096",
+      "type": "multiple-choice",
+      "text": "自動車販売店にはカスタムの財務表があります。\n開発者と協力して、特定の条件が満たされたときにフォームの非表示セクションを表示するボタンをリボンに追加しています。\n開発者にツールとテクノロジを推奨する必要があるどの2つのツールまたはテクノロジを推奨する必要がありますか?",
+      "explanation": "ビジネスルールはフィールドの表示/非表示、必須制御、値の設定は行えるが、リボンにボタンを追加することはできない。\nフォームエディターはフォームのセクションや項目のレイアウトを編集できるが、リボンのカスタマイズは不可。",
+      "options": [
+        {
+          "id": "A",
+          "text": "ビジネス ルールを記述します。"
+        },
+        {
+          "id": "B",
+          "text": "JavaScript コードを記述します。"
+        },
+        {
+          "id": "C",
+          "text": "リボン ワークベンチを使用します。"
+        },
+        {
+          "id": "D",
+          "text": "フォーム エディターを使用します。"
+        }
+      ],
+      "correctAnswer": {
+        "type": "multiple",
+        "optionIds": [
+          "B",
+          "C"
+        ]
+      },
+      "requiredSelections": 2
+    },
+    {
+      "id": "q097",
+      "type": "multiple-choice",
+      "text": "クライアントのデータベース テーブルを設計しています。\n次の要件があります。\n*色とそれに対応する RGB 値および 16 進数値の包括的なリストを維持します。\n*色の 16 進数値に基づいて、重複する色の追加を防ぎます。\n*テーブルのデザインを推奨する必要があります。\nテーブルが作成された後にクライアントが実行する必要がある 2つのアクションはどれですか?",
+      "explanation": "Dataverseでは、”代替キー”や”重複検出”などに使う列は「業務用（Business Key）」として扱うのが前提。→「この列は業務上ユニークで意味がある」とシステムに示す行為。一意性の基準となる列を業務用として定義。\nDataverseではテーブルの代替キーを作成することで、一意性を保証することができ、「重複する色の追加を防ぐ」ことができる。キーにすることで重複を物理的に防止。\n要件に「色の 16 進数値に基づいて」とあるので、RGB値を用いているDは不正解。",
+      "options": [
+        {
+          "id": "A",
+          "text": "16 進数の値の列を業務用としてマークします。"
+        },
+        {
+          "id": "B",
+          "text": "定期的な一括レコード削除ジョブを構成およびスケジュールします。"
+        },
+        {
+          "id": "C",
+          "text": "テーブルの代替キーを作成します。"
+        },
+        {
+          "id": "D",
+          "text": "RGB 値列を業務用としてマークします。"
+        }
+      ],
+      "correctAnswer": {
+        "type": "multiple",
+        "optionIds": [
+          "A",
+          "C"
+        ]
+      },
+      "requiredSelections": 2
+    },
+    {
+      "id": "q098",
+      "type": "multiple-choice",
+      "text": "ソリューションの作業範囲ドキュメントを作成しています。次の要件があります。\n*サポート ケース、最初の応答時間、および解決時間を追跡します。\n*マネージャーが最小限の手動検索でケースのステータスを確認できるチャットのようなインターフェイスを含めます。\n*ケースに複数の異なる優先度レベルを設定できるようにします。\n必要なDynamics 365 およびPower Platformコンポーネントを含める必要があります。\nどの 2つのコンポーネントを含める必要がありますか?",
+      "explanation": "Dynamics 365 Customer Service_ケース管理\nDynamics 365 Customer Voice_アンケートツール",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dynamics 365 カスタマー サービス"
+        },
+        {
+          "id": "B",
+          "text": "Power Virtual Agents"
+        },
+        {
+          "id": "C",
+          "text": "Power BI"
+        },
+        {
+          "id": "D",
+          "text": "Dynamics 365 Customer Voice"
+        }
+      ],
+      "correctAnswer": {
+        "type": "multiple",
+        "optionIds": [
+          "A",
+          "B"
+        ]
+      },
+      "requiredSelections": 2
+    },
+    {
+      "id": "q099",
+      "type": "dropdown",
+      "text": "ある企業は、Power Apps ポータルを作成して、顧客のサポートケースを管理することを計画しています。この会社には、顧客用のアカウント階層があります。\n階層は、取引先責任者とケースの両方が関連する取引先に属する取引先、ケース、および取引先責任者をサポートします。\n会社には次の要件があります。\n*ポータル ユーザーは、自分が管理するケースのメモのみを表示する必要があります。\n*ポータル ユーザーは、同僚によって送信されたケースのみを表示する必要があります。\n*ポータルのセキュリティ モデルを設計する必要があります。\nどのエンティティ アクセス許可スコープを使用する必要がありますか?",
+      "explanation": "Self：自分のプロフィール（Contactレコードそのものに対する権限）\nContact：自分のレコード\nAccount：同じ会社（同僚含む）\nParent：親レコード経由で制御\nGlobal：全レコードを表示\nWebロール＿ユーザーをグループ化し、役割に応じた権限の器。",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "3",
+          "slot2": "4"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "ポータル ユーザーは、自分が管理するケースのメモのみを表示する必要があります。",
+          "options": [
+            {
+              "id": "1",
+              "text": "セルフ"
+            },
+            {
+              "id": "2",
+              "text": "ペアレント"
+            },
+            {
+              "id": "3",
+              "text": "コンタクト"
+            },
+            {
+              "id": "4",
+              "text": "アカウント"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "ポータル ユーザーは、同僚によって送信されたケースのみを表示する必要があります。",
+          "options": [
+            {
+              "id": "1",
+              "text": "セルフ"
+            },
+            {
+              "id": "2",
+              "text": "グローバル"
+            },
+            {
+              "id": "3",
+              "text": "コンタクト"
+            },
+            {
+              "id": "4",
+              "text": "アカウント"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q100",
+      "type": "single-choice",
+      "text": "自動車部品メーカー向けのPower Platformソリューションを設計しています。\n次のテーブルを作成します。\n関係行動を推奨する必要があります。\nどの人間関係の行動を推奨する必要がありますか?\n<table class=\"q-table\"><thead><tr><th>テーブル</th><th>コメント</th></tr></thead><tbody><tr><td>アセンブリ</td><td>アセンブリ レコードごとに、部品テーブルに 1つ以上の行が存在します。\nアセンブリ レコードの所有権が変更されると、関連する部品レコードを更新する必要があります。</td></tr><tr><td>部品</td><td>アセンブリを削除するときに、パーツ テーブルの行を削除しないでください。</td></tr></tbody></table>",
+      "explanation": "問いは、「所有権の変更は連動させたいが、削除は連動させたくない」といった要件。\nAの削除制限は「部品が残っている限りアセンブリを削除できない」設定のため不正解。\nCは削除もカスケード（連動）してしまうため不正解。\nDは、「親レコードを削除した時、子レコードは削除しない。ただし、Lookup(関連付け)をnullにする。」といった動作。そのため、削除要件は満たしているが、「所有権の変更の連動」ができないため不正解。",
+      "options": [
+        {
+          "id": "A",
+          "text": "参照、削除制限"
+        },
+        {
+          "id": "B",
+          "text": "カスタム"
+        },
+        {
+          "id": "C",
+          "text": "Parent"
+        },
+        {
+          "id": "D",
+          "text": "参照、リンクの削除"
+        }
+      ],
+      "correctAnswer": {
+        "type": "single",
+        "optionId": "B"
+      }
+    },
+    {
+      "id": "q101",
+      "type": "multiple-choice",
+      "text": "Power Platform ソリューションのテーブルと列を設計しています。\nこのソリューションには、インタラクティブなエクスペリエンスダッシュボードが含まれます。\n作成した列がダッシュボードのグローバルフィルターとして使用できることを確認する必要があります。どの2つのデータ型を使用できますか?",
+      "explanation": "正解: B、E",
+      "options": [
+        {
+          "id": "A",
+          "text": "はい/いいえ"
+        },
+        {
+          "id": "B",
+          "text": "選択肢"
+        },
+        {
+          "id": "C",
+          "text": "テキスト"
+        },
+        {
+          "id": "D",
+          "text": "マルチ テキスト"
+        },
+        {
+          "id": "E",
+          "text": "ルックアップ"
+        }
+      ],
+      "correctAnswer": {
+        "type": "multiple",
+        "optionIds": [
+          "B",
+          "E"
+        ]
+      },
+      "requiredSelections": 2
+    },
+    {
+      "id": "q102",
+      "type": "dropdown",
+      "text": "あなたは会社の Power Platform ソリューションを設計しています。\n次の要件があります。\n*人事部門のユーザーは、タスクを作成できる必要があります。\n*人事部門のユーザーは、ケースを他のユーザーに割り当てることができる必要があります。\n会社にセキュリティ設定を推奨する必要があります。\n何をお勧めしますか？",
+      "explanation": "タスクは、Dataverseのアクティビティテーブルの一種。\nDataverseは作成だけでなく、読み取りの権限もセットで必要となるため、②が正解。\nユーザーレベルの権限では「自分のレコード」しか割り当てられないため、④が正解。",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "2",
+          "slot2": "4"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "人事部門のユーザーはタスクを作成できる必要があります。",
+          "options": [
+            {
+              "id": "1",
+              "text": "アクティビティには作成権限のみを割り当てます。"
+            },
+            {
+              "id": "2",
+              "text": "アクティビティに作成権限と読み取り権限を割り当てます。"
+            },
+            {
+              "id": "3",
+              "text": "ユーザーレベルの割り当て権限を人事ケーステーブルに割り当てます。"
+            },
+            {
+              "id": "4",
+              "text": "人事ケーステーブルに組織レベルの権限を割り当てます。"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "人事部門のユーザーは、ケースを他のユーザーに割り当てることができる必要があります。",
+          "options": [
+            {
+              "id": "1",
+              "text": "アクティビティには作成権限のみを割り当てます。"
+            },
+            {
+              "id": "2",
+              "text": "アクティビティに作成権限と読み取り権限を割り当てます。"
+            },
+            {
+              "id": "3",
+              "text": "ユーザーレベルの割り当て権限を人事ケーステーブルに割り当てます。"
+            },
+            {
+              "id": "4",
+              "text": "組織レベルの割り当て権限を人事ケース テーブルに割り当てます。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q103",
+      "type": "dropdown",
+      "text": "ある企業は、Dynamics 365 Sates と統合するPower Platformソリューションの作成を計画しています。ソリューションは、次の要件を満たす必要があります。\n* 実行時に外部データソースとしてAzure SQLデータベースに直接接続し、Dynamics 365 Salesソリューションでデータレプリケーションを必要とせずに特定のデータを利用できます。\n* 外部システムは、会社の Dynamics 365 Salesソリューションにデータを送信する必要があります。\nDynamics 365 Salesを両方のシステムと統合するための最適なソリューションを推奨する必要があります。\n何をお勧めしますか？",
+      "explanation": "カスタムプラグインはDataverse内部で発生したイベント（作成や更新）に反応して動作するものであり、外部から「データを受け取るための入り口」ではない。",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "1",
+          "slot2": "2"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "外部 Azure SQL データベースのデータを読み取り専用で表示できます。",
+          "options": [
+            {
+              "id": "1",
+              "text": "仮想テーブルを使用します。"
+            },
+            {
+              "id": "2",
+              "text": "カスタム プラグインを使用します。"
+            },
+            {
+              "id": "3",
+              "text": "Dynamics 365 Web API を使用します。"
+            },
+            {
+              "id": "4",
+              "text": "Web リソースを使用してデータを表示します。"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "外部システムはデータを Dynamics 365 Sales に送信します。",
+          "options": [
+            {
+              "id": "1",
+              "text": "カスタム プラグインを使用します。"
+            },
+            {
+              "id": "2",
+              "text": "Dynamics 365 Web API を使用します。"
+            },
+            {
+              "id": "3",
+              "text": "Web リソースを使用してデータを表示します。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q104",
+      "type": "single-choice",
+      "text": "学校のデータモデルを設計しています。学校は、学生のコースへの登録を追跡したいと考えています。\nシステムは次の要件を満たす必要があります。\n*各学生が登録されているコースを追跡します。\n*各コースに登録されている学生を追跡します。\n*各学生が各コースに登録した日付と、登録を承認した人物を追跡します。\nどの学生がどのコースに登録されているかを詳細に示すレポートをユーザーが作成できるようにします。\n学校の要件に適合するデータ モデルを推奨する必要があります。\nどの論理モデルを推奨する必要がありますか?",
+      "explanation": "正解: A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Student ←one-to-many→ Enrollment ←one-to-many→ Course（中間テーブル Enrollment を使用）"
+        },
+        {
+          "id": "B",
+          "text": "Student ←many-to-many→ Course（直接の多対多リレーション）"
+        },
+        {
+          "id": "C",
+          "text": "Student ←one-to-many→ Course（学生から見て1対多）"
+        },
+        {
+          "id": "D",
+          "text": "Student →many-to-one→ Course（学生から見て多対1）"
+        }
+      ],
+      "correctAnswer": {
+        "type": "single",
+        "optionId": "A"
+      }
+    },
+    {
+      "id": "q105",
+      "type": "single-choice",
+      "text": "テスト中に報告された問題を解決する必要があります。\nあなたは何をするべきか？",
+      "explanation": "Aの画像保存は単なる「記録」の追加。根本的解決にはならない\nCのクイックビューフォームは「関連するレコードの情報を表示する」ためのUIコンポーネント",
+      "options": [
+        {
+          "id": "A",
+          "text": "検査順序テーブル内に画像データ タイプを作成します。"
+        },
+        {
+          "id": "B",
+          "text": "検査オーダー テーブル内に元の検査オーダーへの関係を作成します。"
+        },
+        {
+          "id": "C",
+          "text": "検査オーダーのクイック ビュー フォームを作成します。"
+        }
+      ],
+      "correctAnswer": {
+        "type": "single",
+        "optionId": "B"
+      }
+    },
+    {
+      "id": "q106",
+      "type": "single-choice",
+      "text": "複数のDataverse 環境を持つ企業向けにPower Platformソリューションを設計しています。\n特定のユーザーが特定の環境にアクセスできないようにする必要があります。\nあなたは何をするべきか？",
+      "explanation": "正解: C",
+      "options": [
+        {
+          "id": "A",
+          "text": "特定の環境のユーザーからすべてのセキュリティ ロールを削除します。"
+        },
+        {
+          "id": "B",
+          "text": "ビジネス ユニットからユーザーを削除します。"
+        },
+        {
+          "id": "C",
+          "text": "すべてのセキュリティ グループからユーザーを削除します。"
+        },
+        {
+          "id": "D",
+          "text": "すべてのチームからユーザーを削除します。"
+        }
+      ],
+      "correctAnswer": {
+        "type": "single",
+        "optionId": "C"
+      }
+    },
+    {
+      "id": "q107",
+      "type": "multiple-choice",
+      "text": "地元の銀行は、Power Platform アプリを使用して顧客データを保存しています。\n銀行の IT責任者は、すべての従業員が顧客の社会保障番号を確認できることを発見しました。\nITチームは、フィールドレベルのセキュリティがどのように機能するかを理解しておらず、設計を支援する必要があります。\n次の要件を満たすソリューションを銀行に推奨する必要があります。\n*システムは、顧客の社会保障番号へのアクセスを財務担当副社長のみに制限する必要があります。\n* 財務担当副社長は、顧客の社会保障番号を読み取って更新できる必要があります。\nどの 2つのアクションをお勧めしますか?",
+      "explanation": "列レベルのセキュリティを有効にしたことで、その列のデータが非表示にされる。その後、「誰がそのデータを見られるか」を定義するためにプロファイルを作成し、読み取りや更新の権限を与えるユーザーを付与する。",
+      "options": [
+        {
+          "id": "A",
+          "text": "マイナンバーの読み取り権限と更新権限の値を未設定に設定します。"
+        },
+        {
+          "id": "B",
+          "text": "メンバーテーブルのフィールド レベル セキュリティを有効にします。"
+        },
+        {
+          "id": "C",
+          "text": "フィールドレベルのセキュリティ プロファイルを作成します。"
+        },
+        {
+          "id": "D",
+          "text": "社会保障番号列のフィールド レベル セキュリティを有効にします。"
+        }
+      ],
+      "correctAnswer": {
+        "type": "multiple",
+        "optionIds": [
+          "C",
+          "D"
+        ]
+      },
+      "requiredSelections": 2
+    },
+    {
+      "id": "q108",
+      "type": "dropdown",
+      "text": "ある企業が、既存の独自ソリューションからPower Platformソリューションへの移行を計画しています。\n同社は複数のソースからのデータを統合しています。\n同社は、既存のソリューションで次のデータ品質の問題を報告しています。\n*ユーザーは、データを入力するときに文字数制限に遭遇することがよくあります。\n*データベースには、重複レコードの複数のインスタンスが含まれています。\nデータ品質の問題が Power Platformソリューションに存在しないことを確認するために、ソリューションを推奨する必要があります。\n何をお勧めしますか？",
+      "explanation": "正解: ③、②",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "3",
+          "slot2": "2"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "ユーザーはデータを入力するときに文字制限に遭遇することがよくあります。",
+          "options": [
+            {
+              "id": "1",
+              "text": "データマスクを定義します。"
+            },
+            {
+              "id": "2",
+              "text": "重複検出ルールを定義して実装します。"
+            },
+            {
+              "id": "3",
+              "text": "各列のデータ型と形式を定義します。"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "データベースには、いくつかのレコードの複数のインスタンスが含まれています。",
+          "options": [
+            {
+              "id": "1",
+              "text": "データ入力の要件を定義します。"
+            },
+            {
+              "id": "2",
+              "text": "重複検出ルールを定義して実装します。"
+            },
+            {
+              "id": "3",
+              "text": "各列のデータ型と形式を定義します。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q109",
+      "type": "multiple-choice",
+      "text": "あなたは、インターネット サポート会社の Power Platform コンサルタントです。\n同社には、サードパーティの ISV やアドオンを購入する予算がありません。\n同社は、次のことを実現する新しいシステムを必要としています。\n*すべてのサポートの問題は電子メールで送信され、ログに記録され、サポートグループに割り当てられる必要があります。\n*アカウントは、親会社の Oracle データベースと同期する必要があります。\n*レポートは、週単位で幹部に送信する必要があります。\n*システムでカスタム コードは使用されません。\n構成する必要があるコンポーネントを推奨する必要があります。\nどの 2つのコンポーネントをお勧めしますか?",
+      "explanation": "Customer Voiceは満足度調査のアンケートツール。\nもし、[Dynamics 365 Customer Service]が選択肢にあった場合は、それと[サーバー側の同期]が正解。",
+      "options": [
+        {
+          "id": "A",
+          "text": "Power Virtual Agents"
+        },
+        {
+          "id": "B",
+          "text": "Dataverse"
+        },
+        {
+          "id": "C",
+          "text": "サーバー側の同期"
+        },
+        {
+          "id": "D",
+          "text": "Microsoft Customer Voice"
+        }
+      ],
+      "correctAnswer": {
+        "type": "multiple",
+        "optionIds": [
+          "B",
+          "C"
+        ]
+      },
+      "requiredSelections": 2
+    },
+    {
+      "id": "q110",
+      "type": "multiple-choice",
+      "text": "ある企業は、成約した商談と失注した商談から洞察を収集するのに苦労しています。\nユーザーはモバイル端末やデスクトップ端末の両方から会社のソリューションにアクセスできる必要があります。\nソリューションは次の要件を満たす必要があります。\nクライアントがデータを視覚化できるように Power Platformツールを推奨する必要があります。\nどの 2つのテクノロジをお勧めしますか?",
+      "explanation": "正解: A,D",
+      "options": [
+        {
+          "id": "A",
+          "text": "Power Bl"
+        },
+        {
+          "id": "B",
+          "text": "Power Automate"
+        },
+        {
+          "id": "C",
+          "text": "Power Virtual Agents"
+        },
+        {
+          "id": "D",
+          "text": "Power Apps"
+        }
+      ],
+      "correctAnswer": {
+        "type": "multiple",
+        "optionIds": [
+          "A",
+          "D"
+        ]
+      },
+      "requiredSelections": 2
+    },
+    {
+      "id": "q111",
+      "type": "multiple-choice",
+      "text": "あなたは、企業が販売機会を管理できるようにするモデル駆動型アプリを設計しています。\nこの会社には、次の要件を含む複雑なセキュリティ モデルがあります。\n*営業担当副社長は、営業マネージャーと営業担当者の商談を確認できる必要があります。\n*営業マネージャーは、すべての営業担当者の商談を表示できる必要があります。\n*営業担当者は、自分が所有する商談のみを表示する必要があります。\nユーザー アクセスを制御するためのセキュリティ ツールを推奨する必要があります。\nどの 2つのツールをお勧めしますか?",
+      "explanation": "アカウント階層\n取引先（アカウント）同士の親子関係用であり、ユーザーの上下関係には使えない。\nフィールドセキュリティプロファイル\n特定の列単位で [読み取り/作成/更新] および列の [表示/非表示] の制御できるが、どのレコードが見えるかは無関係。\nポジション階層\n上位ポジションのユーザーが、下位ポジションのレコードを参照できる。\nセキュリティロール\n「何ができるか（読み取り/書き込み/更新）」を定義するために必須のもの。",
+      "options": [
+        {
+          "id": "A",
+          "text": "アカウント階層"
+        },
+        {
+          "id": "B",
+          "text": "フィールド セキュリティ プロファイル"
+        },
+        {
+          "id": "C",
+          "text": "ポジション階層"
+        },
+        {
+          "id": "D",
+          "text": "セキュリティ ロール"
+        }
+      ],
+      "correctAnswer": {
+        "type": "multiple",
+        "optionIds": [
+          "C",
+          "D"
+        ]
+      },
+      "requiredSelections": 2
+    },
+    {
+      "id": "q112",
+      "type": "ordering",
+      "text": "あなたは Microsoft Power Platform アーキテクトです。\n自動化の機会を特定するには、組織のビジネスプロセスを特定して文書化する必要があります。\nプロセスアドバイザーでタスクマイニングを実行する必要があります。\nどの順序でアクションを実行する必要がありますか?",
+      "explanation": "正解: ①→②→③→④→⑤",
+      "orderItems": [
+        {
+          "id": "1",
+          "text": "プロセスと記録を準備します"
+        },
+        {
+          "id": "2",
+          "text": "プロセスを分析します"
+        },
+        {
+          "id": "3",
+          "text": "プロセスを視覚化します"
+        },
+        {
+          "id": "4",
+          "text": "自動化の推奨事項を特定します"
+        },
+        {
+          "id": "5",
+          "text": "プロセスを共有します"
+        }
+      ],
+      "correctAnswer": {
+        "type": "ordering",
+        "orderedIds": [
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ]
+      }
+    },
+    {
+      "id": "q113",
+      "type": "dropdown",
+      "text": "あなたは、会社にマーケティング、販売、およびサービス業務を提供するモデル駆動型アプリを設計しています。\nアプリは、次のシステムおよびデータ ソースと統合する必要があります。\n*リードジェネレーションとウェブサイト提出のためのサードパーティのマーケティングシステム\n* 関連製品の製造データを含むExcel Online ファイル\n* 別の Microsoft Dataverse 環境\nアプリの Power Automate コネクタを推奨する必要があります。\nどの接続をお勧めしますか?",
+      "explanation": "正解: ③、（Excel Onlineコネクタ またはそれに準ずるもの）、③",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "3",
+          "slot2": "3"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "サードパーティのマーケティング システム",
+          "options": [
+            {
+              "id": "1",
+              "text": "Power BI コネクタ"
+            },
+            {
+              "id": "2",
+              "text": "SharePoint コネクタ"
+            },
+            {
+              "id": "3",
+              "text": "カスタムコネクタ"
+            },
+            {
+              "id": "4",
+              "text": "Microsoft Forms コネクタ"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "別のMicrosoft Dataverse環境",
+          "options": [
+            {
+              "id": "1",
+              "text": "SharePoint"
+            },
+            {
+              "id": "2",
+              "text": "Azure Data Factory"
+            },
+            {
+              "id": "3",
+              "text": "Microsoft Dataverse"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q114",
+      "type": "dropdown",
+      "text": "配管会社から提出されたビジネス要件のリストを確認しています。\n会社には次の要件があります。\n*記事を技術者に送信して、技術者が顧客の問題解決を支援できるようにします。\n*顧客サイトでの作業の進捗状況と検査を追跡します。\n*サービス予定の技術者をスケジュールします。\n顧客の要件を満たすソリューションを推奨する必要があります。\n何をお勧めしますか？",
+      "explanation": "Dynamics 365 Field Serviceには、技術者向けのモバイルアプリがあり、現場技術者に配信できる。\nまた、「作業指示書(Work Orders)」機能により、作業の進捗状況を可視化・追跡できる。\n更に、技術者のスケジューリング最適化が主目的としたサービスである。",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "1",
+          "slot2": "1",
+          "slot3": "1"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "技術者に記事を送信して、技術者が顧客の問題解決を支援できるようにします。",
+          "options": [
+            {
+              "id": "1",
+              "text": "Dynamics 365 Field Service"
+            },
+            {
+              "id": "2",
+              "text": "Dynamics 365 Customer Voice"
+            },
+            {
+              "id": "3",
+              "text": "Dynamics 365 Customer Insights"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "顧客サイトでの作業の進捗状況と検査を追跡します。",
+          "options": [
+            {
+              "id": "1",
+              "text": "Dynamics 365 Field Service"
+            },
+            {
+              "id": "2",
+              "text": "Dynamics 365 Customer Voice"
+            },
+            {
+              "id": "3",
+              "text": "Dynamics 365 Customer Insights"
+            }
+          ]
+        },
+        {
+          "id": "slot3",
+          "label": "技術者のサービス予約をスケジュールします。",
+          "options": [
+            {
+              "id": "1",
+              "text": "Dynamics 365 Field Service"
+            },
+            {
+              "id": "2",
+              "text": "Dynamics 365 Customer Voice"
+            },
+            {
+              "id": "3",
+              "text": "Dynamics 365 Customer Insights"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q115",
+      "type": "dropdown",
+      "text": "あなたは、全国規模の小売チェーン保護の要件を把握するPower Platformソリューションアーキテクトです。プロジェクトには次の要件があります。\nプロジェクトの機能要件と非機能要件を特定する必要があります。\n要件をどのように分類する必要がありますか?",
+      "explanation": "動作・振る舞い、[それがなかったら動かないもの]⇒機能要件\n制約・環境・運用、[それがなくても動くもの]⇒非機能要件",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "2",
+          "slot2": "2",
+          "slot3": "2",
+          "slot4": "2"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "小売業の従業員は、会社が提供するタブレットデバイスでアプリケーションを使用する必要がある。",
+          "options": [
+            {
+              "id": "1",
+              "text": "機能要件"
+            },
+            {
+              "id": "2",
+              "text": "非機能要件"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "アプリはデータをオフラインで保存する必要がある。",
+          "options": [
+            {
+              "id": "1",
+              "text": "機能要件"
+            },
+            {
+              "id": "2",
+              "text": "非機能要件"
+            }
+          ]
+        },
+        {
+          "id": "slot3",
+          "label": "環境の容量を監視して、使用量が利用可能な容量の 80%以内に収まるようにする必要がある。",
+          "options": [
+            {
+              "id": "1",
+              "text": "機能要件"
+            },
+            {
+              "id": "2",
+              "text": "非機能要件"
+            }
+          ]
+        },
+        {
+          "id": "slot4",
+          "label": "アプリは、ユーザーがアクセスできるようにセキュリティ グループ チームと共有される。",
+          "options": [
+            {
+              "id": "1",
+              "text": "機能要件"
+            },
+            {
+              "id": "2",
+              "text": "非機能要件"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q116",
+      "type": "multiple-choice",
+      "text": "アプリへのユーザーアクセスを管理する必要があります。\nどの2つの接続タイプをお勧めしますか?",
+      "explanation": "正解: C,D",
+      "options": [
+        {
+          "id": "A",
+          "text": "カスタムコネクタを持つ仮想テーブル"
+        },
+        {
+          "id": "B",
+          "text": "Office 365 Outlook コネクタ"
+        },
+        {
+          "id": "C",
+          "text": "Microsoft Dataverse コネクタ"
+        },
+        {
+          "id": "D",
+          "text": "Office 365 ユーザー コネクタ"
+        }
+      ],
+      "correctAnswer": {
+        "type": "multiple",
+        "optionIds": [
+          "C",
+          "D"
+        ]
+      },
+      "requiredSelections": 2
+    },
+    {
+      "id": "q117",
+      "type": "dropdown",
+      "text": "検査要件を満たすために、適切なコンポーネントを推奨する必要があります。\n何をお勧めしますか？",
+      "explanation": "２点目に関しては、ビジネスルールでも値の強制や必須化はできるが、文書提示・UI誘導の柔軟性はフォームの方が上。「説明・文書・表示」＝フォーム",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "1",
+          "slot2": "3"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "確定した検査オーダーの編集を禁止します。",
+          "options": [
+            {
+              "id": "1",
+              "text": "ビジネスルール"
+            },
+            {
+              "id": "2",
+              "text": "セキュリティの役割"
+            },
+            {
+              "id": "3",
+              "text": "ユーザー権限"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "失敗した検査ステップに関する文書を準備します。",
+          "options": [
+            {
+              "id": "1",
+              "text": "データフロー"
+            },
+            {
+              "id": "2",
+              "text": "ビジネスルール"
+            },
+            {
+              "id": "3",
+              "text": "フォームプロパティ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q118",
+      "type": "dropdown",
+      "text": "検査要件を満たすソリューションを推奨する必要があります。\n何をお勧めしますか？\n検査のボトルネックを表示、割り当て、解決します。\n検査ゲージからの測定値を自動で入力します。",
+      "explanation": "ボトルネック＿タスクが集中しリソース（技術者）が足りていない状態。スケジュールボードを用いて、現場の停滞を解決するために割り当てたりリソースを再配置させたりする。\nIoT Hubコネクタ＿デバイスからのデータを大規模に取り込むことができる標準IoTサービス。\n※IoT CentralはIoT Hubの上位互換だが、自前でCentralを導入している必要があるため不正解。",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "2",
+          "slot2": "2"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "検査のボトルネックを表示、割り当て、解決します。",
+          "options": [
+            {
+              "id": "1",
+              "text": "予約ルール"
+            },
+            {
+              "id": "2",
+              "text": "スケジュールボード"
+            },
+            {
+              "id": "3",
+              "text": "熟練度モデル"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "検査ゲージからの測定値を自動で入力します。",
+          "options": [
+            {
+              "id": "1",
+              "text": "カスタム コネクタ"
+            },
+            {
+              "id": "2",
+              "text": "Azure IoT Hub コネクタ"
+            },
+            {
+              "id": "3",
+              "text": "Azure IoT Central コネクタ"
+            },
+            {
+              "id": "4",
+              "text": "Microsoft Dataverse コネクタ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q119",
+      "type": "dropdown",
+      "text": "あなたは、Microsoft Power Platform ソリューションのデータ移行を監督しています。\n移行チームは、データのサブセットを使用してテスト移行を実行しています。\n移行チームは、次の調査結果を報告しています。\n*アカウント行を所有するユーザーは、システム生成の電子メールを受信しています。\n*移行の一部ではないデータが Contact テーブルと Appointmentテーブルに追加されています。\n*Power Platform 管理センターの [容量]ページに一覧表示されるログのサイズが大幅に増加しました。\n報告された問題を解決するための戦略を推奨する必要があります。\n何をお勧めしますか？",
+      "explanation": "問1：テスト移行でレコード（例: アカウント/取引先企業）を作成・更新すると、サーバーサイドのクラシックワークフロー、プラグイン、Power Automate（フロー）がトリガーされ、通知メールや自動配信が送られることがある。移行中にこれらの自動処理を一時停止しておくのが定石。JavaScript はクライアント側（フォーム操作時）で動くため、データ移行のバックエンド処理では通常動かない。よって、③では抑止できない。\n問2：①と同様に、「予定（Appointment）」や「連絡先（Contact）」の派生レコード生成は、典型的にプラグイン、ワークフロー、フローが引き起す（例: 取引先企業／取引先担当者作成時に自動でフォロー予定を作る、関連レコードを補完する等）。\n問3：監査（Audit）が有効だと、作成・更新・割り当て・共有等の操作ごとに監査ログが蓄積する。移行では大量の CRUD が発生するため、監査ログの容量が急増する。",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "4",
+          "slot2": "4",
+          "slot3": "1"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "アカウント行を所有するユーザーは、システムによって生成された電子メールを受信します。",
+          "options": [
+            {
+              "id": "1",
+              "text": "監査を無効にします。"
+            },
+            {
+              "id": "2",
+              "text": "重複検出を無効にします。"
+            },
+            {
+              "id": "3",
+              "text": "すべてのカスタム JavaScript関数を無効にします。"
+            },
+            {
+              "id": "4",
+              "text": "Power Platform 管理センターですべてのワークフロー、プラグインを無効にする。"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "移行の一部ではないデータが Contact テーブルとAppointment テーブルに追加されます。",
+          "options": [
+            {
+              "id": "1",
+              "text": "監査を無効にします。"
+            },
+            {
+              "id": "2",
+              "text": "重複検出を無効にします。"
+            },
+            {
+              "id": "3",
+              "text": "すべてのカスタム JavaScript関数を無効にします。"
+            },
+            {
+              "id": "4",
+              "text": "Power Platform 管理センターですべてのワークフロー、プラグインを無効にする。"
+            }
+          ]
+        },
+        {
+          "id": "slot3",
+          "label": "Power Platform 管理センターの [容量] ページにリストされるログのサイズが大幅に増加しました。",
+          "options": [
+            {
+              "id": "1",
+              "text": "監査を無効にします。"
+            },
+            {
+              "id": "2",
+              "text": "重複検出を無効にします。"
+            },
+            {
+              "id": "3",
+              "text": "すべてのカスタム JavaScript関数を無効にします。"
+            },
+            {
+              "id": "4",
+              "text": "Power Platform 管理センターですべてのワークフロー、プラグインを無効にする。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q120",
+      "type": "multiple-choice",
+      "text": "あなたは Microsoft Power Platform ソリューションを設計しています。\n組織の非機能要件を特定する必要があります。\n特定する必要がある非機能要件を 3つ選択してください。",
+      "explanation": "・使いやすさ・速さ・安全性・遵守 → 非機能要件\n・「〜以内」「〜を満たす」「〜に準拠」 → 非機能要件\n・業務ロジック・判定ルール → 機能要件\n・「〜できる」「〜を実行する」→ 機能要件\n・運用手順・作業方法 → 要件ではない（運用設計）",
+      "options": [
+        {
+          "id": "A",
+          "text": "ビジネスフローの使いやすさ"
+        },
+        {
+          "id": "B",
+          "text": "お客様のメンテナンス手順"
+        },
+        {
+          "id": "C",
+          "text": "上位顧客を特定するためのビジネス ルール"
+        },
+        {
+          "id": "D",
+          "text": "ソリューションの規制遵守"
+        },
+        {
+          "id": "E",
+          "text": "フォームのロード時間"
+        }
+      ],
+      "correctAnswer": {
+        "type": "multiple",
+        "optionIds": [
+          "A",
+          "D",
+          "E"
+        ]
+      },
+      "requiredSelections": 3
+    },
+    {
+      "id": "q121",
+      "type": "single-choice",
+      "text": "マシン情報を Dynamics 365 Field Service に転送する方法を推奨する必要があります。\n何をお勧めしますか？",
+      "explanation": "正解: A",
+      "options": [
+        {
+          "id": "A",
+          "text": "Microsoft Dataverse コネクタ"
+        },
+        {
+          "id": "B",
+          "text": "二重書き込み"
+        },
+        {
+          "id": "C",
+          "text": "ライフサイクル サービス"
+        }
+      ],
+      "correctAnswer": {
+        "type": "single",
+        "optionId": "A"
+      }
+    },
+    {
+      "id": "q122",
+      "type": "single-choice",
+      "text": "企業にはモデル駆動型アプリがあります。\nアプリには、ビジネス ルールと JavaScriptの両方が追加されたフォームがあり、フォームのビジネスロジックを処理します。\nフォームには、ビジネスルールを使用して適用されるロジックが含まれています。\n会社は、アプリ内のすべてのフォームにビジネスルールを適用したいと考えています。\nフォームを今後も維持できるように、簡素化されたフォーム設定を推奨する必要があります。\n何をお勧めしますか？",
+      "explanation": "PCFは主に UIコンポーネント（表示・入力体験）を拡張するための仕組みであり、「フォーム全体のビジネスロジックを統一」する目的としては過剰で、開発・保守の難度も上がりがち。さらに「すべてのフォームに適用したい」という要件に対して、PCFは コントロール単位のため噛み合わない。",
+      "options": [
+        {
+          "id": "A",
+          "text": "Power Apps Component Framework (PCF) コントロールを使用してビジネスロジックを管理します。"
+        },
+        {
+          "id": "B",
+          "text": "Power Apps Component Framework (PCF)コントロールを使用して、ロジックの複雑な部分を解決できるかどうかを評価します。残りの機能にはビジネス ルールを使用します。"
+        },
+        {
+          "id": "C",
+          "text": "ビジネス ルールを削除し、JavaScript のみを使用します。"
+        },
+        {
+          "id": "D",
+          "text": "ビジネス ルールが最適化されるようにロジックを更新します。残りの機能にはJavaScript を使用します。"
+        }
+      ],
+      "correctAnswer": {
+        "type": "single",
+        "optionId": "D"
+      }
+    },
+    {
+      "id": "q123",
+      "type": "dropdown",
+      "text": "ある会社は、Dynamics 365 Sales と Power BI を使用しています。\n営業マネージャーは、次の方法でパイプラインの変更を追跡できる必要があります。\n*商談の販売ステージを変更したときに、営業マネージャーに通知する\n*パイプラインが 250 万ドルを下回ったら、セールス マネージャーに通知する\n*Power BIでパイプラインを確認する場合、営業担当者はプレイブックを商談に追加できる必要がある\n会社の要件を満たすソリューションを推奨する必要があります。\nどのソリューションの組み合わせをお勧めしますか?",
+      "explanation": "行の更新⇒Dataverse\n閾値によるアラート⇒Power BIアラート\n問3：Power BI は参照専用のため、直接 Dataverseを更新できない。そのため以下の手順が必要。\n１．Power BI：パイプラインの可視化\n２．Power Apps（埋め込み）：商談操作（プレイブック追加）\n３．Dataverse：商談データ更新\n４．Power Automate：処理の補助（必要に応じて）",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "1",
+          "slot2": "2",
+          "slot3": "4"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "*Power BIでパイプラインを確認する場合、営業担当者はプレイブックを商談に追加できる必要がある",
+          "options": [
+            {
+              "id": "1",
+              "text": "Power Automate、Dataverse コネクタ、および Office 365 Outlook コネクタ"
+            },
+            {
+              "id": "2",
+              "text": "Power Automate、Dataverse コネクタ、およびOffice 365 ユーザー"
+            },
+            {
+              "id": "3",
+              "text": "Power Automate、データ アラート、およびOffice 365 コネクタ"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "会社の要件を満たすソリューションを推奨する必要があります。",
+          "options": [
+            {
+              "id": "1",
+              "text": "Power Automate、Dataverse コネクタ、およびOffice 365 Outlook コネクタ"
+            },
+            {
+              "id": "2",
+              "text": "Power Automate、Power BIデータアラート、および Office 365コネクタ"
+            },
+            {
+              "id": "3",
+              "text": "Power Automate、Power BI、Power Apps、およびDataverse コネクタ"
+            }
+          ]
+        },
+        {
+          "id": "slot3",
+          "label": "どのソリューションの組み合わせをお勧めしますか?",
+          "options": [
+            {
+              "id": "1",
+              "text": "Power BI、Power Apps、Dataverse コネクタ、およびOffice 365 Outlook コネクタ"
+            },
+            {
+              "id": "2",
+              "text": "Power Automate、データ アラート、Dataverse コネクタ、および Office 365 ユーザー"
+            },
+            {
+              "id": "3",
+              "text": "Power Automate、データ アラート、およびOffice 365 コネクタ"
+            },
+            {
+              "id": "4",
+              "text": "Power Automate、Power BI、Power Apps、およびDataverse コネクタ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q124",
+      "type": "multiple-choice",
+      "text": "あなたは会社のセルフサービス ポータルを設計しています。\nポータルは次の要件を満たす必要があります。\n*顧客は、ケースを送信して確認できる必要があります。\n*顧客はサービス担当者とほぼリアルタイムでチャットできる必要があります。\n*サービス担当者がキューからケースを選択し、ナレッジ記事を使用して顧客の懸念を解決できるようにします。\nカスタム開発を必要としない会社向けのソリューションを推奨する必要があります。\nおすすめのアプリまたはサービスを 3つ選んでください。",
+      "explanation": "A.現場作業(作業指示書、資産メンテナンス)向けで、ケース/チャット運用を満たすものではない\nB.ケース管理。ナレッジ記事を参照/共有して一時解決率を高める\nC.ライブチャット/ボイス/デジタルメッセージングなどのチャネルを提供し、リアルタイム対話が可能\nD.顧客データ基盤/データ主導のマーケ・顧客理解向けで、ケース/チャット運用を満たすものではない\nE.サインインした顧客がケース(サポート案件)の作成・参照を行える",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dynamics 365 フィールド サービス"
+        },
+        {
+          "id": "B",
+          "text": "Dynamics 365 カスタマー サービス"
+        },
+        {
+          "id": "C",
+          "text": "Customerサービス用オムニチャネル"
+        },
+        {
+          "id": "D",
+          "text": "Customerインサイト"
+        },
+        {
+          "id": "E",
+          "text": "Customer セルフサービス ポータル"
+        }
+      ],
+      "correctAnswer": {
+        "type": "multiple",
+        "optionIds": [
+          "B",
+          "C",
+          "E"
+        ]
+      },
+      "requiredSelections": 3
+    },
+    {
+      "id": "q125",
+      "type": "multiple-choice",
+      "text": "あなたは会社の Power Platform ソリューションを設計しています。\nユーザーには、関連するデータへのアクセスのみを許可する必要があります。\n要件を満たすためのアクションを推奨する必要があります。\nどの 2つの推奨事項を作成する必要がありますか?",
+      "explanation": "列セキュリティは特定の列（給与、個人情報など）を隠すためのもの。\n「関連するデータのみ」というレコードレベルの制御には向かない。",
+      "options": [
+        {
+          "id": "A",
+          "text": "該当するチームに列セキュリティ プロファイルを追加します。"
+        },
+        {
+          "id": "B",
+          "text": "セキュリティ ロールを定義および構成します。"
+        },
+        {
+          "id": "C",
+          "text": "チームを作成し、セキュリティ ロールとユーザーをチームに割り当てます。"
+        },
+        {
+          "id": "D",
+          "text": "ビジネス ユニットを作成し、セキュリティ ロールをビジネス ユニットに割り当てます。"
+        }
+      ],
+      "correctAnswer": {
+        "type": "multiple",
+        "optionIds": [
+          "B",
+          "C"
+        ]
+      },
+      "requiredSelections": 2
+    },
+    {
+      "id": "q126",
+      "type": "dropdown",
+      "text": "ユーザーの各グループにセキュリティを割り当てる方法を推奨する必要があります。\n顧客は次の要件を提供します。\n*顧客は、オンライン ポータルからケースを送信できる必要があります。\n*ポータルは、ケースを送信する 75人の同時ユーザーを処理する必要があります。\n*サービス データは、少なくとも 6年間保持する必要があります。\nどの要件が機能的か非機能的かを判断する必要があります。\n機能的または非機能的な要件はどれですか？",
+      "explanation": "・使いやすさ・速さ・安全性・遵守 → 非機能要件\n・「〜以内」「〜を満たす」「〜に準拠」 → 非機能要件\n・業務ロジック・判定ルール → 機能要件\n・「〜できる」「〜を実行する」→ 機能要件\n問2は、「どの程度の負荷に耐えられるか」という品質条件",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "1",
+          "slot2": "2",
+          "slot3": "2"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "顧客はオンライン ポータルを通じてケースを送信できる必要があります。",
+          "options": [
+            {
+              "id": "1",
+              "text": "機能要件"
+            },
+            {
+              "id": "2",
+              "text": "非機能要件"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "ポータルは、ケースを送信する 75人の現在のユーザーを処理する必要があります。",
+          "options": [
+            {
+              "id": "1",
+              "text": "機能要件"
+            },
+            {
+              "id": "2",
+              "text": "非機能要件"
+            }
+          ]
+        },
+        {
+          "id": "slot3",
+          "label": "サービス データは少なくとも 6年間保持する必要があります。",
+          "options": [
+            {
+              "id": "1",
+              "text": "機能要件"
+            },
+            {
+              "id": "2",
+              "text": "非機能要件"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q127",
+      "type": "dropdown",
+      "text": "ある会社は、Dynamics 365 Salesと統合するPower Platformソリューションの作成を計画しています。ソリューションは、次の要件を満たす必要があります。\n*実行時に外部データ ソースとして Microsoft Azure SQL データベースに直接接続し、データレプリケーションを必要とせずに、Dynamics 365 Salesソリューションで特定のデータを利用できます。\n*外部システムは、会社の Dynamics 365 Salesソリューションにデータを送信する必要があります。\nDynamics 365 Salesを両方のシステムと統合するための最適なソリューションを推奨する必要があります。\n何をお勧めしますか？",
+      "explanation": "正解: ①、②",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "1",
+          "slot2": "2"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "外部 Azure SQL データベースのデータを読み取り専用で表示できます。",
+          "options": [
+            {
+              "id": "1",
+              "text": "仮想テーブルを使用します。"
+            },
+            {
+              "id": "2",
+              "text": "カスタム プラグインを使用します。"
+            },
+            {
+              "id": "3",
+              "text": "Dynamics 365 Web API を使用します。"
+            },
+            {
+              "id": "4",
+              "text": "Web リソースを使用してデータを表示します。"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "外部システムはデータを Dynamics 365 Sales に送信します。",
+          "options": [
+            {
+              "id": "1",
+              "text": "カスタム プラグインを使用します。"
+            },
+            {
+              "id": "2",
+              "text": "Dynamics 365 Web API を使用します。"
+            },
+            {
+              "id": "3",
+              "text": "Web リソースを使用してデータを表示します。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q128",
+      "type": "single-choice",
+      "text": "ある企業は、Power Automate を使用してビジネスプロセスを自動化することを計画しています。\n複数のフローにわたって実装する必要があるサブプロセスを特定します。\nサブプロセスを実装して、保守しやすく、ナビゲートしやすいようにする必要があります。\nあなたは何をするべきか？",
+      "explanation": "Power Automate で 複数のフローから共通サブプロセスを呼び出したい場合、ベストプラクティスは 子フロー（Child Flow） を作成すること。\n子フローは、\n【インスタント トリガーで開始する】\n【親フローから フローを呼び出す(Run a Child Flow) アクションで実行する】\nという仕組みで動作する。\nこれにより、\n【共通処理を一括管理・一元修正できる】\n【複数の親フローから再利用できる】\n【フロー全体の保守性・可読性が向上する】\nというメリットがある。",
+      "options": [
+        {
+          "id": "A",
+          "text": "サブプロセスのコピーを保存し、追加のアクションをフローに追加します。"
+        },
+        {
+          "id": "B",
+          "text": "自動トリガーでサブプロセスを開始します。"
+        },
+        {
+          "id": "C",
+          "text": "クリップボードを使用して、サブプロセスのアクションをフローにコピーします。"
+        },
+        {
+          "id": "D",
+          "text": "インスタント トリガーでサブプロセスを開始します。"
+        }
+      ],
+      "correctAnswer": {
+        "type": "single",
+        "optionId": "D"
+      }
+    },
+    {
+      "id": "q129",
+      "type": "single-choice",
+      "text": "ある会社は、世界中のテクノロジに専門的な開発認定を提供しています。\n同社は複数のコール センターを使用して顧客をサポートしています。\n同社は、Dynamics 365 Customer Service の実装を計画しています。\n会社は、コールセンターの従業員の生産性を向上させる必要があります。\nソリューションは、次の要件を満たす必要があります。\n*複数の顧客とのやり取りを一度に処理するユーザーが複数のビジネス アプリケーションから情報にアクセスできるようにします。\n*チャット、電話、電子メール、オンラインレビューなどのチャネルを使用して、顧客とやり取りします。\n*すべての機能を単一のインターフェイスに実装します。\n会社の要件を満たすソリューションを推奨する必要があります。\n何をお勧めしますか？",
+      "explanation": "Customerサービス用オムニチャネル\n顧客とサービス担当者を、チャット・SMS・SNS など複数の窓口でリアルタイムに繋ぐための仕組み",
+      "options": [
+        {
+          "id": "A",
+          "text": "Customerサービス用オムニチャネル"
+        },
+        {
+          "id": "B",
+          "text": "Dynamics 365 Powered by CafeX のライブ アシスト"
+        },
+        {
+          "id": "C",
+          "text": "Linkedln コネクタ"
+        },
+        {
+          "id": "D",
+          "text": "ユニファイド サービス デスク"
+        }
+      ],
+      "correctAnswer": {
+        "type": "single",
+        "optionId": "A"
+      }
+    },
+    {
+      "id": "q130",
+      "type": "ordering",
+      "text": "Microsoft Power Platformソリューションを持つクライアントのためにビジネス継続戦略を設計しています。クライアントは重要なデータを扱い、データ損失が高リスクを生みます。\nリトライのプロセスをステークホルダーのために記録する必要があります。\nどの4つの行動を順番に行うべきでしょうか?解答するには、適切なアクションリストから適切なアクションを解答欄に移動し、正しい順序で並べます。",
+      "explanation": "正解: ②⇒③⇒④⇒①",
+      "orderItems": [
+        {
+          "id": "1",
+          "text": "2回目の呼び出しが成功した場合、アプリケーションは通常どおり処理を継続する。"
+        },
+        {
+          "id": "2",
+          "text": "アプリケーションがデータセンターにサービス呼び出しを行う。"
+        },
+        {
+          "id": "3",
+          "text": "サービス呼び出しを試みた後、アプリケーションが例外（エラー）を受信する。"
+        },
+        {
+          "id": "4",
+          "text": "アプリケーションが自動的に再度呼び出しを試みる。"
+        },
+        {
+          "id": "5",
+          "text": "アプリケーションが呼び出しをオンプレミスサーバーにリダイレクトする。"
+        }
+      ],
+      "correctAnswer": {
+        "type": "ordering",
+        "orderedIds": [
+          "2",
+          "3",
+          "4",
+          "1"
+        ]
+      },
+      "requiredSelections": 4
+    },
+    {
+      "id": "q131",
+      "type": "dropdown",
+      "text": "ある全国展開の小売業者が、カスタムのPower Platform ソリューションを使用して倉庫業務を合理化しようとしています。\nこの小売業者は、既存のデータをDataverse に移行することを計画しています。\n小売業者は、以下のデータソリューション要件を提示しています。\n*配送担当者（ディスパッチャー）は、倉庫への、および倉庫からの商品の保管、取り扱い、および輸送に責任を持ちます。\n*配送担当者は、注文が出荷された後、注文レコードおよび関連する注文明細を所有します。\n*フロアマネージャーは、各注文の合計注文収益（合計売上）を統合して表示できる機能を必要としています。\n*出荷された製品の 現在の在庫数（Inventory on hand）が、各注文明細で確認できる必要があります。\n*すべてのスタッフは、倉庫内で危険を発見した場合、写真を撮影しなければなりません。これらの写真はフォルダに追加され、地域マネージャーと共有される必要があります。\nあなたはデータソリューションを設計する必要があります。\n各要件に対してどのデータソリューションコンポーネントを使用すべきですか？\n合計注文収益\n現在の在庫数\n危険箇所の写真(Photos of hazards)",
+      "explanation": "正解: ③、④、④",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "3",
+          "slot2": "4",
+          "slot3": "4"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "合計注文収益",
+          "options": [
+            {
+              "id": "1",
+              "text": "計算列"
+            },
+            {
+              "id": "2",
+              "text": "選択肢列"
+            },
+            {
+              "id": "3",
+              "text": "ロールアップ列"
+            },
+            {
+              "id": "4",
+              "text": "整数列"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "現在の在庫数",
+          "options": [
+            {
+              "id": "1",
+              "text": "自動採番列"
+            },
+            {
+              "id": "2",
+              "text": "キー列"
+            },
+            {
+              "id": "3",
+              "text": "ロールアップ列"
+            },
+            {
+              "id": "4",
+              "text": "整数列"
+            }
+          ]
+        },
+        {
+          "id": "slot3",
+          "label": "危険箇所の写真(Photos of hazards)",
+          "options": [
+            {
+              "id": "1",
+              "text": "ファイル列"
+            },
+            {
+              "id": "2",
+              "text": "ロールアップ列"
+            },
+            {
+              "id": "3",
+              "text": "テキストエリア列"
+            },
+            {
+              "id": "4",
+              "text": "SharePoint ドキュメント ライブラリ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "q132",
+      "type": "ordering",
+      "text": "ある企業が新しい Microsoft Power Apps アプリのリリースを準備しています。\nこの企業は、リリースに向けてデータをインポートする必要があります。また、データインポートの検証に使用される、文書化されたテストプロセスのレビューを求めています。\nあなたはテストプロセスの手順を提示する必要があります。\n順序に従って実行することを推奨する4つのステップはどれですか？",
+      "explanation": "正解: ⑦⇒②⇒③⇒⑥",
+      "orderItems": [
+        {
+          "id": "1",
+          "text": "ソリューションをカスタマイズする"
+        },
+        {
+          "id": "2",
+          "text": "テスト計画を作成する"
+        },
+        {
+          "id": "3",
+          "text": "テストスクリプトを実行する"
+        },
+        {
+          "id": "4",
+          "text": "UI検証を完了する"
+        },
+        {
+          "id": "5",
+          "text": "データマッピングを完了する"
+        },
+        {
+          "id": "6",
+          "text": "テストレポートを作成する"
+        },
+        {
+          "id": "7",
+          "text": "環境を準備する"
+        }
+      ],
+      "correctAnswer": {
+        "type": "ordering",
+        "orderedIds": [
+          "7",
+          "2",
+          "3",
+          "6"
+        ]
+      },
+      "requiredSelections": 4
+    },
+    {
+      "id": "q133",
+      "type": "single-choice",
+      "text": "ある企業は、Microsoft Excel シートを使用して融資申請プロセスを管理しています。\n会社はプロセスを最適化したいと考えています。\nプロセスの非効率性を発見する必要があります。\n解決策: Excel シートに保存されているアクティビティ データをプロセスアドバイザー機能にアップロードします。プロセスマイニングを使用して、プロセスの非効率性を発見します。\n解決策は目標を達成できますか?",
+      "explanation": "プロセスマイニングを使うと、ボトルネック・無駄なループ・手戻りが多い工程などのプロセスの非効率性を可視化・発見できる。\nログがあるならプロセスマイニング\nログがない／手作業中心ならタスクマイニング",
+      "options": [
+        {
+          "id": "A",
+          "text": "はい"
+        },
+        {
+          "id": "B",
+          "text": "いいえ"
+        }
+      ],
+      "correctAnswer": {
+        "type": "single",
+        "optionId": "A"
+      }
+    },
+    {
+      "id": "q134",
+      "type": "single-choice",
+      "text": "ある企業は、Microsoft Excel シートを使用して融資申請プロセスを管理しています。\n会社はプロセスを最適化したいと考えています。\nプロセスの非効率性を発見する必要があります。\n解決策: Excel シートに保存されているアクティビティ データをプロセスアドバイザー機能にアップロードします。タスクマイニングを使用して、プロセスの非効率性を発見します。\n解決策は目標を達成できますか?",
+      "explanation": "RPA 化・自動化候補の発見する機能であり、Excelをアップロードして分析するものではない。",
+      "options": [
+        {
+          "id": "A",
+          "text": "はい"
+        },
+        {
+          "id": "B",
+          "text": "いいえ"
+        }
+      ],
+      "correctAnswer": {
+        "type": "single",
+        "optionId": "B"
+      }
+    },
+    {
+      "id": "q135",
+      "type": "single-choice",
+      "text": "ある企業は、Microsoft Excel シートを使用して融資申請プロセスを管理しています。\n会社はプロセスを最適化したいと考えています。\nプロセスの非効率性を発見する必要があります。\n解決策:\nプロセスアドバイザー機能でローン申請プロセスを完了するために必要なアクションを記録します。\nタスクマイニングを使用して、プロセスの非効率性を発見します。\n解決策は目標を達成できますか?",
+      "explanation": "ログがあるならプロセスマイニング\nログがない／手作業中心ならタスクマイニング",
+      "options": [
+        {
+          "id": "1",
+          "text": "はい"
+        },
+        {
+          "id": "2",
+          "text": "いいえ"
+        }
+      ],
+      "correctAnswer": {
+        "type": "single",
+        "optionId": "1"
+      }
+    },
+    {
+      "id": "q136",
+      "type": "case-study",
+      "text": "あなたはソリューションのためのテーブルを設計する必要があります。\n何を推奨すべきですか？\nサイト訪問記録\nセキュリティ・クリアランス記録",
+      "explanation": "正解: ①、③",
+      "correctAnswer": {
+        "type": "dropdown",
+        "selections": {
+          "slot1": "1",
+          "slot2": "3"
+        }
+      },
+      "dropdowns": [
+        {
+          "id": "slot1",
+          "label": "サイト訪問記録",
+          "options": [
+            {
+              "id": "1",
+              "text": "カスタムテーブル"
+            },
+            {
+              "id": "2",
+              "text": "アクティビティテーブル"
+            },
+            {
+              "id": "3",
+              "text": "仮想テーブル"
+            }
+          ]
+        },
+        {
+          "id": "slot2",
+          "label": "セキュリティ・クリアランス記録",
+          "options": [
+            {
+              "id": "1",
+              "text": "検索(N:1)(Lookup(N:1))"
+            },
+            {
+              "id": "2",
+              "text": "選択肢(Choice)"
+            },
+            {
+              "id": "3",
+              "text": "検索(N:N)(Lookup(N:N))"
+            }
+          ]
+        }
+      ],
+      "caseStudy": {
+        "title": "First Up Consultants",
+        "sections": [
+          {
+            "id": "background",
+            "title": "背景 (Background)",
+            "content": "<p>First Up は、複数の国で従業員支援プログラム（EAP）サービスを提供する、急成長中のグローバル企業です。同社は世界中に複数のオフィスを構えています。</p><p>First Up の各オフィスには、マネージャーとエージェントが在籍しています。同社には、生産性と全体的な健康を改善するために雇用主に雇われた顧客（クライアント）がいます。</p><p>この会社は、報告と内容の確認に使用されるメインフレームシステムを所有しています。登録プロセスは、エージェントが紙のフォームに入力することから始まります。顧客情報は、電話や電子メール、ウェブサイトのポータルを通じて First Up に提供されます。多くのお客様は、モバイルアプリの使いやすさとリアルタイムの更新を好みます。</p>"
+          },
+          {
+            "id": "existing-environment",
+            "title": "現在の環境とプロセス (Existing environment and processes)",
+            "content": "<p>First Up は、投薬や医療リスクを含む医療データを管理および保存するために、メインフレームシステムを使用しています。</p><p>同社は、医療情報を含む、規制対象の機密データを複数のシステムに分散して保有しています。</p><p>電話予約を管理する既存の予約システムは、Active Directory にリンクされていない外部ベンダーによって提供されています。</p><p>予約には、作成された日付、関連する専門家、含まれる連絡先情報、優先言語、予約の場所、および予約された時間が含まれます。この情報は、メインフレームシステムに保存されます。</p><p>エージェントは、将来の訪問者のニーズを予測するために、履歴データを使用することができます。</p>"
+          },
+          {
+            "id": "current-situation",
+            "title": "現在の状況 (Current situation)",
+            "content": "<p>以前、First Up は小規模な会社でしたが、その後、他社を買収して管理範囲を拡大しました。エージェントの人数が増え、使用されるデバイスの種類も Android や iOS など多岐にわたります。First Up は、安全で堅牢な、最新のエンタープライズソリューションを必要としています。エージェントは、オフィス外にいる間、電話アプリからフォームに情報を入力します。</p><p>エージェントの多くの同僚は、スタッフの不足や、割り当てられた場所への移動中にクライアント情報を表示できないことに不満を持っています。</p>"
+          },
+          {
+            "id": "requirements",
+            "title": "要件 (Requirements)",
+            "content": "",
+            "subSections": [
+              {
+                "id": "req-general",
+                "title": "全般 (General)",
+                "content": "<p>会社全体で標準化されたコミュニケーションツールがなく、異なるチームは別々のツールを使用しています。</p><p>現場スタッフは、スマートフォンを使用して、現在のタスク、計画、および発生しうるイベントを表示できる必要があります。</p><p>作業員は、サポートエージェントとリアルタイムで通信できる必要があります。</p><p>管理上のオーバーヘッドを最小限に抑え、手動入力を減らす必要があります。</p>"
+              },
+              {
+                "id": "req-client-staff",
+                "title": "クライアントとスタッフのデータ (Client and staff data)",
+                "content": "<p>監査レコードは、最初のマネージャーによる確認が行われた後、読み取り専用でなければなりません。</p><p>監査員は、クライアントへの訪問の詳細情報を確認できなければなりません。これには過去の訪問記録も含まれます。</p><p>ソリューションは、日付、ステータス、および担当エージェントに基づいて、進行中の情報の追跡をサポートする必要があります。</p><p>労働者が予約を完了した際、予約には労働者の署名が含まれている必要があります。</p>"
+              },
+              {
+                "id": "req-job-history",
+                "title": "業務履歴情報 (Job history information)",
+                "content": "<p>ソリューションは、雇用状況、職歴、学歴を含む複数の予約情報を保存できる必要があります。</p><p>ソリューションは、各予約の複数の住所を保存できる必要があります。</p><p>すべての予約情報、実施された作業、および完了した作業は、システム内の予約に結び付けられている必要があります。</p><p>職歴情報は、Microsoft Word を使用して表示およびアクセス可能である必要があります。</p><p>First Up には、既存の職歴データを含む既存のファイルサーバーがあります。これらのファイルは新しいソリューションに移行し、同じ形式で表示される必要があります。</p>"
+              },
+              {
+                "id": "req-ui",
+                "title": "ユーザーインターフェース (User Interface)",
+                "content": "<p>ソリューションは、複数の異なる言語をサポートする必要があります。</p><p>ソリューションは、翻訳可能なラベルを提供する必要があります。</p><p>ソリューションは、スタッフとエージェント間のテキストベースのリアルタイム通信をサポートする必要があります。</p><p>作業員は自分のカレンダーを確認できなければなりません。</p><p>作業員は、訪問に必要な追加情報をいつでも要求できなければなりません。</p><p>ソリューションは、作業員が一般的な会社のガイドラインを確認できる手段を提供する必要があります。</p><p>作業員は、カレンダーを使用して、自分の仕事の概要を月単位で確認できなければなりません。</p><p>作業員は、必要に応じてクライアントにドキュメントを提供できなければなりません。</p>"
+              },
+              {
+                "id": "req-compliance",
+                "title": "コンプライアンス (Compliance)",
+                "content": "<p>監査員は、モバイルデバイスで監査情報を確認できなければなりません。</p><p>監査員は、監査がいつ、誰によって行われたかを記録できなければなりません。</p><p>ソリューションは、企業のガバナンス監査チームが、組織の記録、ポリシー、および手順を監査できる機能をサポートする必要があります。</p>"
+              },
+              {
+                "id": "req-reporting",
+                "title": "レポートと分析 (Reporting and analytics)",
+                "content": "<p>経営陣と監査員は、すべての施設と地域から収集された分析情報を確認できなければなりません。</p><p>経営陣には組織全体の概要を表示し、他のレポートは特定のオフィスに限定する必要があります。</p><p>ユーザーは各エリアの予約件数を確認できなければなりません。ダッシュボードは Power Platform アプリに埋め込み、リアルタイムで表示される必要があります。</p>"
+              },
+              {
+                "id": "req-security",
+                "title": "セキュリティ (Security)",
+                "content": "<p>すべてのユーザータイプの認証は、単一のプラットフォームで管理する必要があります。ITチームは、PowerShellを使用してユーザーにセキュリティ権限を適用する必要があります。</p><p>労働者の記録は、その労働者が訪問する採用オフィスのみが閲覧できるようにしなければなりません。</p><p>労働者のスキル記録は10年後にアーカイブし、その後メインシステムから削除する必要があります。</p><p>ユーザーのセキュリティロールは、ユーザーがアクセスを必要とする特定のデータのみを操作できるようにカスタマイズする必要があります。</p><p>労働者は、自身のメールアドレスを使用してポータルにサインインできる必要があります。</p><p>クライアント企業に採用・配置された人数に関するアラートは、バックグラウンドプロセスとして更新する必要があります。</p>"
+              },
+              {
+                "id": "req-deployment",
+                "title": "デプロイメント (Deployment)",
+                "content": "<p>アプリケーション開発作業は開発環境で完了させ、ライフサイクル管理（ALM）のベストプラクティスに従う必要があります。</p><p>ソリューションは、開発環境から他の環境へデプロイする前に、問題をチェックできる必要があります。</p>"
+              }
+            ]
+          },
+          {
+            "id": "issues",
+            "title": "課題 (Issues)",
+            "content": "<p>組織から以下の課題が報告されています。</p><ul><li>採用担当者は、労働者の過去の就職斡旋データを確認できないと報告しています。</li><li>API使用状況レポートによると、API呼び出し回数が制限を超えています。これによりデータの保存に遅延が発生しています。</li><li>ユーザーは、Power Platformアプリ内でPower BIレポートを表示できません。</li><li>一部のセキュリティ・クリアランス（機密保持資格）情報が、Microsoft Power Platformソリューション内から表示されません。</li><li>監査チームは、ソリューションにアクセスするデバイスにネットワーク接続がない場合、労働者データを表示または編集できないと報告しています。</li><li>テストチームは、キャンバスアプリの1つが期待通りに動作していないと報告しています。特定のページが読み込まれる際にエラーメッセージが表示されます。</li><li>現在、監査チームのすべてのルート計画は手動で行われています。これは、モバイル監査チームにとって必ずしも最適なルートになるとは限らず、特に多くの予約が予定されている場合に顕著です。最適化の不足により、企業への訪問漏れが発生する可能性があります。</li></ul>"
+          }
+        ]
+      }
+    }
+  ]
+}
