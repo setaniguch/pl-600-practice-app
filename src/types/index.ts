@@ -93,6 +93,7 @@ export type ExamAction =
   | { type: 'PREV_QUESTION' }
   | { type: 'COMPLETE_EXAM' }
   | { type: 'RESET_EXAM' }
+  | { type: 'NEW_EXAM'; questions: Question[] }
   | { type: 'RESUME_EXAM' }
   | { type: 'RESTORE_STATE'; state: Partial<ExamState> };
 
@@ -107,6 +108,7 @@ export interface ExamContextValue {
   progressPercent: number;
   isFirstQuestion: boolean;
   isLastQuestion: boolean;
+  startNewExam: () => void;
 }
 
 // スコア計算

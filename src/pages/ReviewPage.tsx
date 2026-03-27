@@ -48,7 +48,7 @@ function formatAnswer(
 }
 
 export function ReviewPage() {
-  const { state, dispatch } = useExam();
+  const { state, dispatch, startNewExam } = useExam();
   const navigate = useNavigate();
   const result = calculateScore(state.questions, state.answers);
   const [expandedId, setExpandedId] = useState<string | null>(null);
@@ -60,7 +60,7 @@ export function ReviewPage() {
   }
 
   const handleRestart = () => {
-    dispatch({ type: 'RESET_EXAM' });
+    startNewExam();
     navigate('/');
   };
 

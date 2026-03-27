@@ -4,15 +4,16 @@ import { ExamPage } from './pages/ExamPage';
 import { ReviewPage } from './pages/ReviewPage';
 import { ErrorBoundary } from './components/ErrorBoundary';
 import questionsData from './data/questions.json';
+import { selectExamQuestions } from './utils/selectQuestions';
 import type { Question } from './types';
 
-const questions = questionsData.questions as Question[];
+const allQuestions = questionsData.questions as Question[];
 
 function App() {
   return (
     <ErrorBoundary>
       <BrowserRouter basename={import.meta.env.BASE_URL}>
-        <ExamProvider questions={questions}>
+        <ExamProvider allQuestions={allQuestions} selectQuestions={selectExamQuestions}>
           <Routes>
             <Route path="/" element={<ExamPage />} />
             <Route path="/review" element={<ReviewPage />} />
